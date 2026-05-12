@@ -1,0 +1,4 @@
+db/
+lists/
+incoming/
+*.deb.tmp

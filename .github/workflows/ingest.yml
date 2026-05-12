@@ -1,0 +1,89 @@
+---
+name: Ingest release
+
+on:
+    repository_dispatch:
+        types: [ingest-release]
+    workflow_dispatch:
+        inputs:
+            source_repo:
+                description: 'owner/repo of the source project'
+                required: true
+                type: string
+            tag:
+                description: 'release tag to pull .debs from'
+                required: true
+                type: string
+
+permissions:
+    contents: write
+
+jobs:
+    ingest:
+        runs-on: ubuntu-latest
+        env:
+            SOURCE_REPO: ${{ github.event.client_payload.source_repo || inputs.source_repo }}
+            RELEASE_TAG: ${{ github.event.client_payload.tag || inputs.tag }}
+        steps:
+            - name: Checkout apt repo
+              uses: actions/checkout@v4
+
+            - name: Install reprepro and gpg
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y --no-install-recommends reprepro gpg
+
+            - name: Import signing key
+              env:
+                  PRIV: ${{ secrets.APT_GPG_PRIVATE_KEY }}
+              run: |
+                  echo "$PRIV" | gpg --batch --import
+                  echo "trust-model always" >> ~/.gnupg/gpg.conf
+
+            - name: Download release .debs
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  mkdir -p incoming
+                  gh release download "$RELEASE_TAG" \
+                      --repo "$SOURCE_REPO" \
+                      --pattern '*.deb' \
+                      --dir incoming
+                  ls -la incoming
+
+            - name: Add .debs to reprepro per codename
+              run: |
+                  set -e
+                  shopt -s nullglob
+                  for codename in bullseye bookworm trixie; do
+                      case "$codename" in
+                          bullseye) tag=debian-11 ;;
+                          bookworm) tag=debian-12 ;;
+                          trixie)   tag=debian-13 ;;
+                      esac
+                      debs=(incoming/*_${tag}_*.deb)
+                      if [ ${#debs[@]} -eq 0 ]; then
+                          echo "no $tag debs in release; skipping $codename"
+                          continue
+                      fi
+                      for d in "${debs[@]}"; do
+                          # Strip the _${tag}_ marker so reprepro sees a stock filename;
+                          # the binary itself was built against ${codename}.
+                          base="$(basename "$d")"
+                          clean="${base/_${tag}_/_}"
+                          cp "$d" "incoming/$clean"
+                          reprepro -b . --keepunreferencedfiles includedeb "$codename" "incoming/$clean"
+                      done
+                  done
+
+            - name: Commit pool/dists updates
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git add pool dists
+                  if git diff --cached --quiet; then
+                      echo "no changes to commit"
+                      exit 0
+                  fi
+                  git commit -m "ingest ${SOURCE_REPO}@${RELEASE_TAG}"
+                  git push
