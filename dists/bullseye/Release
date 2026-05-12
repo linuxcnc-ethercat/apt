@@ -1,0 +1,29 @@
+Origin: linuxcnc-ethercat
+Label: linuxcnc-ethercat
+Suite: stable
+Codename: bullseye
+Date: Tue, 12 May 2026 07:00:51 UTC
+Architectures: amd64
+Components: main
+Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
+MD5Sum:
+ 38f6ba6b26a58ffce7d5739d9b0a8407 4347 main/binary-amd64/Packages
+ 7cae2f9b0072e7e916c8955ca5453b86 1615 main/binary-amd64/Packages.gz
+ 1601c8eccf5d2c81231692485af81941 181 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ fca6b4c0a257ee0cff7a3953ee8d4465 182 main/source/Release
+SHA1:
+ 36f30282a658ddc3a2017ee814170b0f6df5f760 4347 main/binary-amd64/Packages
+ 10e2819254ddb68c57593f017f8efeec6388cc03 1615 main/binary-amd64/Packages.gz
+ 679976ce80617228480c436319ae875b00add59a 181 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 70ba6f610ad42dda48b38cfb5bf85a903dedaaac 182 main/source/Release
+SHA256:
+ 35d939df684d57463cda6dd489dd54282a1a500a652b3244956b5cc8a4be4445 4347 main/binary-amd64/Packages
+ 2fb758ffcc7eb27db152f105f4b815aeeee4c126bdaeb67afddb516098943c64 1615 main/binary-amd64/Packages.gz
+ ae275af45e150ff1e0c5cf790297821ed97738d6d854d278dcf65cb1b6b6d6f9 181 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ d0c49e768adbc0affd2810eb2f1271f117af3abcbe2bd35da1a2cdcee8470df7 182 main/source/Release

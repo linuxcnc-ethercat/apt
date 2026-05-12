@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: linuxcnc-ethercat
+Label: linuxcnc-ethercat
+Suite: stable
+Codename: trixie
+Date: Tue, 12 May 2026 07:00:51 UTC
+Architectures: amd64
+Components: main
+Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
+MD5Sum:
+ f422d8fea157bd22629ff7b1755666f1 4350 main/binary-amd64/Packages
+ 42abea25ef4fe9d797ee2760d2927432 1615 main/binary-amd64/Packages.gz
+ 97d7dafa4d76f4ff8cabc3ed61fcbaac 179 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 83f6cd45b8e3b760ccb80149c228afac 180 main/source/Release
+SHA1:
+ 91ae4eec7e9801234bad59ef588670f44b021d18 4350 main/binary-amd64/Packages
+ 3a7a7165ac945a30a8f83ee5851bc78108b3445e 1615 main/binary-amd64/Packages.gz
+ 0813496329d8c51a12f544b9f78170a4b3ab8d8e 179 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 17f6dd41800cfc1b148cde1ca3f4cfcbe9d7ffc8 180 main/source/Release
+SHA256:
+ 2d8b0cd5e9e3449965b2be8bb83c48ceef8e5836ec20fc4fdbcb01633425e6e3 4350 main/binary-amd64/Packages
+ f507d0dece824f9aba72e83c675934af40ad15cd89c062cf2375e863eb872258 1615 main/binary-amd64/Packages.gz
+ 5356464b8bf7d14ed42d9e5df2c5847a6bafbc10da64635d98dab011d794a124 179 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 47cae7b09b909b92f9aa1e68a99ace7b7d49ea4525c6d865180c70d6ce1815d1 180 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoC0CMACgkQvDO5O/Jx
+Taeftg//egzD3kMLYGjU4bGDQm2jOiIPiHxAXoWnACD5bhgeWGLR90s0AvGfWGwp
+9MVeriVF2MJ+Mck48lluk0x/VVEdw6hXruYSFwU//JC09j5//ha3SUC4FreYe/fw
+buz22j6qABw6DZnqeu5PpuIopnnMsbfpKJXP4M1wL5RM8Q2eNRY1uqZ+aD1gm/TF
+lGvaVORX+rWTRTWChgdOpAR8XXDxPpygrVCD7ovwEAYEdPB73aKg3KcS2FC/vvEI
+hYxvKDOC+TX9qq9paUWA1KxEaG3VCvhHmTdg9bDH+JoFpYTLfNLLYjwJmucovo8B
+IYMmLJ8FUAKwPJHju3hAGmthpcunO6c2JX4cDVfHnLvO2QVAi27cm6qlpXqdbxT5
+nWhfkwxX16dQPUZSxAK/mAbFOT8z0n/shz2VqplqEKa8bcZLrj7jNIjPeD1hnsMM
+YWMMOTiFH3MbXOfk++tEsl8b/qsXKgOA71a1CksdfbQOTRqO7ezMp3QpehWNLzFl
+8a4vGhXL3kN+RunJHuewzzuhZBUUFWPKSOMZmIVb6hcWB4uh1RwZOOPd+Mh47OQQ
+B9XHCCsctxeuDF2OP6MhghZrbwI9BHe5U4HUDLKdS2dWtVM8gWFkU8a6vMPm2fUQ
+WroGM6TXY0bgnIi4uDXd2uPXRzwNK2zG4IeDvPj5ClUx1rEI5Ak=
+=3aUo
+-----END PGP SIGNATURE-----

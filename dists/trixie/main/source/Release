@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: linuxcnc-ethercat
+Label: linuxcnc-ethercat
+Architecture: source
+Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)

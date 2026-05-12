@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: linuxcnc-ethercat
+Label: linuxcnc-ethercat
+Architecture: amd64
+Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
