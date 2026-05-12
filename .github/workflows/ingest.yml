@@ -40,7 +40,22 @@ jobs:
                   echo "$PRIV" | gpg --batch --import
                   echo "trust-model always" >> ~/.gnupg/gpg.conf
 
+            - name: Check release type
+              id: check
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  is_pre=$(gh release view "$RELEASE_TAG" \
+                      --repo "$SOURCE_REPO" \
+                      --json isPrerelease -q .isPrerelease)
+                  echo "isPrerelease=$is_pre"
+                  echo "is_prerelease=$is_pre" >> "$GITHUB_OUTPUT"
+                  if [ "$is_pre" = "true" ]; then
+                      echo "::notice::skipping pre-release ${SOURCE_REPO}@${RELEASE_TAG}"
+                  fi
+
             - name: Download release .debs
+              if: steps.check.outputs.is_prerelease != 'true'
               env:
                   GH_TOKEN: ${{ github.token }}
               run: |
@@ -52,6 +67,7 @@ jobs:
                   ls -la incoming
 
             - name: Add .debs to reprepro per codename
+              if: steps.check.outputs.is_prerelease != 'true'
               run: |
                   set -e
                   shopt -s nullglob
@@ -74,6 +90,7 @@ jobs:
                   done
 
             - name: Commit pool/dists updates
+              if: steps.check.outputs.is_prerelease != 'true'
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
