@@ -18,6 +18,12 @@ on:
 permissions:
     contents: write
 
+# Serialize ingest runs so the git push at the end of each can't race
+# another job. cancel-in-progress=false to ensure no release is dropped.
+concurrency:
+    group: apt-ingest
+    cancel-in-progress: false
+
 jobs:
     ingest:
         runs-on: ubuntu-latest
@@ -100,4 +106,11 @@ jobs:
                       exit 0
                   fi
                   git commit -m "ingest ${SOURCE_REPO}@${RELEASE_TAG}"
-                  git push
+                  # Defense in depth: concurrency above should prevent races,
+                  # but if a manual run or queued dispatch slipped through,
+                  # rebase onto remote main before pushing.
+                  for i in 1 2 3; do
+                      if git push; then break; fi
+                      echo "push rejected; rebasing on origin/main (attempt $i)"
+                      git pull --rebase origin main
+                  done
