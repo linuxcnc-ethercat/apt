@@ -55,25 +55,22 @@ jobs:
               run: |
                   set -e
                   shopt -s nullglob
-                  for codename in bullseye bookworm trixie; do
-                      case "$codename" in
-                          bullseye) tag=debian-11 ;;
-                          bookworm) tag=debian-12 ;;
-                          trixie)   tag=debian-13 ;;
+                  # Route each .deb to a codename by parsing its Version field:
+                  # the source build stamps "+debNNuM" (e.g. +deb12u1) on every
+                  # binary so a single GH release can carry artifacts for all
+                  # supported distros without filename collisions.
+                  for d in incoming/*.deb; do
+                      ver=$(dpkg-deb -f "$d" Version)
+                      case "$ver" in
+                          *+deb11u*) codename=bullseye ;;
+                          *+deb12u*) codename=bookworm ;;
+                          *+deb13u*) codename=trixie   ;;
+                          *)
+                              echo "skip $d: version '$ver' has no codename suffix"
+                              continue
+                              ;;
                       esac
-                      debs=(incoming/*_${tag}_*.deb)
-                      if [ ${#debs[@]} -eq 0 ]; then
-                          echo "no $tag debs in release; skipping $codename"
-                          continue
-                      fi
-                      for d in "${debs[@]}"; do
-                          # Strip the _${tag}_ marker so reprepro sees a stock filename;
-                          # the binary itself was built against ${codename}.
-                          base="$(basename "$d")"
-                          clean="${base/_${tag}_/_}"
-                          cp "$d" "incoming/$clean"
-                          reprepro -b . --keepunreferencedfiles includedeb "$codename" "incoming/$clean"
-                      done
+                      reprepro -b . --keepunreferencedfiles includedeb "$codename" "$d"
                   done
 
             - name: Commit pool/dists updates
