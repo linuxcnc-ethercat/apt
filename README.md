@@ -20,9 +20,14 @@ URL: <https://linuxcnc-ethercat.github.io/apt/>
 sudo curl -fsSL https://linuxcnc-ethercat.github.io/apt/linuxcnc-ethercat-apt.gpg \
     -o /usr/share/keyrings/linuxcnc-ethercat-apt.gpg
 
-# 2. Add the source (replace <codename> with bullseye / bookworm / trixie)
+# 2. Detect the codename and add the apt source
+. /etc/os-release
+case "$VERSION_CODENAME" in
+    bullseye|bookworm|trixie) ;;
+    *) echo "Unsupported codename: $VERSION_CODENAME (supported: bullseye, bookworm, trixie)" >&2; exit 1 ;;
+esac
 echo "deb [signed-by=/usr/share/keyrings/linuxcnc-ethercat-apt.gpg] \
-https://linuxcnc-ethercat.github.io/apt/ <codename> main" \
+https://linuxcnc-ethercat.github.io/apt/ $VERSION_CODENAME main" \
     | sudo tee /etc/apt/sources.list.d/linuxcnc-ethercat.list
 
 # 3. Update and install
