@@ -5,7 +5,7 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bullseye
-Date: Mon, 18 May 2026 13:14:18 UTC
+Date: Mon, 18 May 2026 13:25:09 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
@@ -32,17 +32,17 @@ SHA256:
  d0c49e768adbc0affd2810eb2f1271f117af3abcbe2bd35da1a2cdcee8470df7 182 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoLEKoACgkQvDO5O/Jx
-TadoVQ//RtutY7fDZ8MzVkGNjGiqOW0ZKXPCMhK9xLhJ+jMss3gguTDwHUEaQQBN
-V61S6L6OIGNmp51kFzHqZCzqZ9Yrn87IPQhoX9Nw3MaW3cBt2eH2ECK0ftzWZ1MN
-ADSG8emGHs20eRlEBLz5qpsMidI9BaPH5k3JHFGrHFn2XeaFO7BSxYK7fkoaoS+3
-+qVDF0Me4G6NR+qbW0EGFGaypHKvg81rzDxyU/xCXX8BW5MuFk1ZmpIsyolFMTjU
-1k8erk2jQBxRs+C9+FOxZI5anXdFOxR9IaeLrPH2uByA2Mwq4LvlbHD3CVv29R51
-AUpFWIfyENQbHa3JIQThEYzlGK8DMoxG65pgWnWqx2+bI/DxTCxGmK3BVwz5IMkM
-QZGwcamzPkr63cm5KboQ6oEz0KqkhZRofqqKJubB9x7NbD9xIzDS+KlIyePkOr9b
-xnxahcOhZW3zu+Ck0EtIcl7pK7EfsUchY0OIZn/ugJg0hwtjQZ5eRSQXjlelJzjT
-E8JnqjNgIeiSphEbJnLJnvlpMFO7SRXocGuCcWJGAP0TecP/N8SJlWueEbPr3x0g
-kWzUp4esLpAbZxLTOEZ4H4FnET2NoV7v0U6k+v9nPOVPvuge+c7xTGCuVG/+Ea5L
-SJJ+LMYCNc91WOXQ6S3q3X6g4CB3xosJozmQ4F2Vu+kuJU0Hlb4=
-=V0cv
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoLEzUACgkQvDO5O/Jx
+TadnCRAAnsmYFexGaFp2gXNnGS6Fi/So8TWac4x/6XYORoSxSbt5kwJ297RqgOV7
+zmkpS5yA3MUuoj5W9RUz5I4mAh0Na9a9hTgWj1wOR5n40xdoGI6ZThqYbjuNL2ki
+saspiixp8Rwnm35qU7mnv4XeuC3RxbmVa7/XZ2bPqHSwyA17hfvKA7gdTHDF09yH
+SovZzGwosHMiRGAnCYIyZsaHHLDGo0sEg4x+AdRdAK6/R4HaHMj1lckpPx5NdKia
+pWt6LorpacPgeKlYJQ39byGJ7ZGHWk6Bq3OQLUXlmVlfJz937YZ2lOYfStD+nfKL
+5+Irr831nIGglmTdacfvq6UOkrcJATBKTaQ65DG4A9d/K5WQzqTl2I56U1qjxOKy
+37wmbkZ4iF4w93MnElbFY+ro3/kVqJmunDfFeJSbekPXwUc4/dAACT68YPlX/pcV
+rrZC45iuXzkm4uY+i2DjaSR8Sjl98GhVyXocL8gNUcAo/pRMbvJQkhaI2Pt4yPAG
+QOzsvFqwEsp5Tg2CrfX4eGg5E4+FzcAA4xf6ebzyOQrZILJLw1LguqomWOi1OFEX
+IrmxzU4POFk+hda9gURQLXmEaRHxlCRzq6YZea51HYtoQ2G1pp6cpS+FkLxwe1H8
+vlS+sUgcBv8cFHuMyholC/NdQGoNqzUGgkaTHCqxdcUd0oWVXw4=
+=mmXV
 -----END PGP SIGNATURE-----

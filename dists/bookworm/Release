@@ -2,7 +2,7 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bookworm
-Date: Mon, 18 May 2026 13:14:18 UTC
+Date: Mon, 18 May 2026 13:25:09 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
