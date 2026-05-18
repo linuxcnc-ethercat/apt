@@ -46,6 +46,32 @@ jobs:
                   echo "$PRIV" | gpg --batch --import
                   echo "trust-model always" >> ~/.gnupg/gpg.conf
 
+            - name: Rebuild reprepro db from pool
+              run: |
+                  # reprepro's berkeley-db state lives under db/. If something
+                  # corrupts or drops it (or if a .deb landed in pool/ without
+                  # an includedeb call), the per-codename Packages files lose
+                  # entries even though the .deb is still on disk. Rebuild the
+                  # index from the pool on every run so dists/ always reflects
+                  # the full pool content.
+                  set -e
+                  shopt -s nullglob
+                  rm -rf db dists
+                  mkdir -p db
+                  for d in pool/main/*/*/*.deb; do
+                      ver=$(dpkg-deb -f "$d" Version)
+                      case "$ver" in
+                          *+deb11u*) codename=bullseye ;;
+                          *+deb12u*) codename=bookworm ;;
+                          *+deb13u*) codename=trixie   ;;
+                          *)
+                              echo "skip $d: version '$ver' has no codename suffix"
+                              continue
+                              ;;
+                      esac
+                      reprepro -b . --keepunreferencedfiles includedeb "$codename" "$d"
+                  done
+
             - name: Check release type
               id: check
               env:
