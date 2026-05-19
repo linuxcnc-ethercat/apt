@@ -5,44 +5,44 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bookworm
-Date: Tue, 19 May 2026 01:03:48 UTC
+Date: Tue, 19 May 2026 01:04:44 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
 MD5Sum:
- 19d3e95ad18484d0ef1c904754a2d207 5367 main/binary-amd64/Packages
- dd1ab37f60244a0facca03df6998aae7 1999 main/binary-amd64/Packages.gz
+ e933f4974d42cabdb2c229e21aa6d90c 4116 main/binary-amd64/Packages
+ 31725e2c45e7c47fb91ac99f00e0d093 1628 main/binary-amd64/Packages.gz
  f950e23a6ae6ce8c7cfde402504f7ea0 181 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e88fa1bf3cfaf5d3458ca275a9edf86e 182 main/source/Release
 SHA1:
- 8689e4b0746c39c3f92b47e034981a4c1cd7c192 5367 main/binary-amd64/Packages
- eb6386cf587d20ba71d725d4005386425a4a3c32 1999 main/binary-amd64/Packages.gz
+ 5044957906e1aa4392cbb81ddeec88660b4e55ea 4116 main/binary-amd64/Packages
+ 5127897b686c1dcf10dbd2bfa4ac6aef93eac9d3 1628 main/binary-amd64/Packages.gz
  034d90e90bd617b7b8303ec497ba5c0e0149be5f 181 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  fda65747e3d0030309feb2313f6ceab9f21156a4 182 main/source/Release
 SHA256:
- a14bb18293f47d1e25ad4df265df4bc2707e14fdcc84e72962186a372fc09264 5367 main/binary-amd64/Packages
- d6c8abe9b729fb6f66827f30ce90c528ac2aecfcafbe59efc5078d5df8d094e1 1999 main/binary-amd64/Packages.gz
+ a7118ce44687fbf832f3a6ac3ec70ba3b014facba3f1b8500c87b0627396330e 4116 main/binary-amd64/Packages
+ 09c2c54dd8a9ad8dd9dec64ac815369793a70ddc189e33ee218712160423b769 1628 main/binary-amd64/Packages.gz
  b997ade5b28afaad12fc70de48fc01f7bc01e8238c338422ba84464bc6ef0969 181 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  440dc74185d9b98e1570e751c1eff25558fa104b61eec690b9f2759c3d3efefa 182 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoLtvQACgkQvDO5O/Jx
-Tae7SA//bgoURiP3rhJvYBaqrXhg0PwRW8zg0dAD3FCqv2KakbzfW76epfQNDZkP
-NrbydU92tToXVKnpQAnyvgjwbd+DMCwLtURCLx3mOOhFWOlA5H06ls7DXEOgC0tA
-MjwGZCsHkDCDpTYFyNbSbwlMzikHLup+tQ8aMgxi0Rxf4N7u29p7OqQ++/D8EjQb
-/dTwnm3GltrNkycNAD8si4NH95KqYUciFFCrgem+wLTjqZCYvk4p0RiEMrV0+//I
-/4dt4AFyDpaKYnHw3HCCpRSX82fkgRcci8XInXoAuFZlxXlkmhoOGnW7NvS6vaLs
-2L1akVuHQyKzDi2/Ch50260ppOC2JtRBdPZeJv2Mtd11ixYLmWUykwW9y/ZlYVXW
-ZW91USxqTjacdCF7NmuLulV4EFpDOLmTXy9QjKnxxy+bU8Nic6VS6DO30mcDYohZ
-F2BsGaXAoE7lz1IpYj3ITS4k1rbbiJQ08Bqb9PB+spdujJYkQytGH3G82j12/g+4
-32SLP8ZQbOB8/nqQFIv1jVQBgu7Xo2lFspxCcoU4BNmeY6cf0kilKkVLgoXvjqo5
-8FFGAIW85qdLDfdDvEXuAAtzosH/M1Sp6SdsZTjcDCUlWaQNoImPkR75mGQdaoP6
-9XqB0B5a0/Ld+3of58xX1CpaMv/n5Uh8zQ4EJz82+StexWkJ4gs=
-=FNrS
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoLtywACgkQvDO5O/Jx
+TaeKbg/+K7EfAjX7o68T4NHkzkktN6wYNUHHWOOr8e59gWN3gVpjUGiE3JWZv9sw
+1N+8ntiHRhrhMBgRRa+SfMZOZe5jVC4Og343cS8ylXdHhZRhSmjolNGnbdfYVOGL
+CdxxnP/upjBm2HjKSokUVrSsn5FAPvsOd1gVX3k8SDFYtaDBazTFn0fUdlQJc/Ge
+5q8J5VAIdVmbXEf5gdOoVV1l8KqpUcUE2azZYqZsfNMdML/RHI/rIRVpFapBeftI
+vUyHYCFU5ZNVQz2+o6B74OQEmK5dbfuhwxFL4bqxWiat36RkydW/E+xyRbVLkkRu
+vB7mOXwlYsPCaDh0NbdeAkN995Aa63/35gfmHKdbiNfXN6L/CsxuaCSzVUfpMUvU
+bAV07iAnUvj5V/fy0OJoJi79T1rWNhHSLyVOPAO666ZA0sRkpfe7Vhht6kV3zBva
+mo5iIb+N/hr2CB6wrHkc3xaGFe3Btrr7Wzew8zVIum/pKHusoUk8+QDS6/q+M2H6
+e+GyYG4H9oSrbcHSBohj1s8FqI3961Wb/3ilG7L1s0iA0NHyN0+Pc3TRGDaoQkRR
+dNWQLdF4yuiKhDrH+pGHjlAoyhNS0YaDjHct0zIoOpL+TvoN3Jaxp/A20Jh+H4EG
+R+GTszJvn+SXNSrvyEGh+VlWSYZjT/cEvxvOAgse9WqPPgDAtUE=
+=WQPo
 -----END PGP SIGNATURE-----
