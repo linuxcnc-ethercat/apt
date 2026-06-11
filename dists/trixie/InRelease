@@ -5,7 +5,7 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: trixie
-Date: Thu, 11 Jun 2026 00:58:42 UTC
+Date: Thu, 11 Jun 2026 01:09:40 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
@@ -32,17 +32,17 @@ SHA256:
  47cae7b09b909b92f9aa1e68a99ace7b7d49ea4525c6d865180c70d6ce1815d1 180 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoqCEIACgkQvDO5O/Jx
-TaexdxAAueeM/vXL46l75yQPgsxlYaneHtcYWTT8uYwlA7XBMTDI13qEoVR+RuVA
-ZBzqeDcTe6XA144ZSlSJrCG6EZTjSY7k1uCsoa/Fak+fsIX/adXBx3a2v/uvGTSO
-LlwQYAbu0uiCkgnI8I7prUdEALM5QWzIgT+YZ6WBiN+mXsMjzLZVN1SDmMxnn7Zg
-A15ymIv+0C9LO16kd2HeYKoZ2Id1sFdVCMKwrcqvYtqTixULNtrYTSVAAO8hVFun
-OJcFMzO3+BqEnMKZLjfiMt0xppvZEhADXNRAXzdTovHK+W1ueIXOBQFPMnQT5jti
-pk5FMPY5B0we67UwyXOA3Oau2r2Mhe0iUgE39tpCl3S4F1ZID/fzrQVgJaznvUSP
-o2HBrB8Lnrdz45Kcbdi8YcaKgZVLnHW2tLzQn0Gm/gk1GwfNkAsPMd+FjifsYQ0e
-LEdMRMpC/RBrDydARsj5e8rvWo1wUSSn+vZajIdLB1m9yUSbOqp2PIzMYHOeNsP8
-1MwPWdWfc5sMQWmzlyFYs9HWimQ+5QtHa+37SlWoqCjap0Wqnne0wwJrglQudDbp
-9kdNF/04A9xAPRnoHkM79hpWhZzU8ZUvv4Cu+nCYczcX+QvaeIvto9wJfVO06Wn2
-oYrrqeClr5SfSVJ3Fh9V8ZQRT8iK+F8y5FQtup8H+flWzHNR/QM=
-=mEi3
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoqCtQACgkQvDO5O/Jx
+Tadsaw//YxWWX39jkKewhv2LThx2C2a6pmPJyL6mO1o0CEKDmYzvuZ0uS1W5iG/A
+ogb4vC5vHhSRIklKSrLPeRUN9om7JUEwHRNDbXy/CyewIdHDVtdKXkeFHtroKyaw
+GZFnZa87LOEspzb0+aw81qxsqqNh8o88wfJcz34xBivwiL5l6jNqQAWfRZBO1krd
+uDl/MOCtJ9MPPHRCqrBOZBzE4zIo6Dbii4A7zBxqEH8gaQeMM5GIUyO8DGb2PszS
+dnJcbGF5MVM46HVKldkoARXwtnJwnTV+xSVvBU1dOl3luch5ZJAR9YdNTdZRdaUt
+aOFNUb/mI3zfnPhc8OUZJ8g+GMCj7xKLODJxI26RzfAac1nNyApyRMiFprNWY6Kt
+TIEurGB4GAHXaua1Wz0xIw8D+TyU6mwUPoRHqqtiYqg/k8C4NdJyU970w1y1MIVT
+sFIdTo6eWzeoga5z7MgVvRqI4x4q5e2nbxh9GT5mH3PdU/+ow1bUGTkMedT6uNMJ
+snSa7PtY4PArwSEBTqbJTf1/fmXui0tWDCi4vebAQlCuy5Z5cMosSTDpsmaEE7gU
+OdMUcgwFtFFajI4xqX3znjDnKxjaHlKFkaDgDmSQHJMtHTizuTF/+JsiLTICMLQo
+vmbqJVBoY5Mi9MTxFz/ETLxP7bLPDlIQrG9udhh9BD+OfAuHFG4=
+=Pu11
 -----END PGP SIGNATURE-----

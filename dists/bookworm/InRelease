@@ -5,7 +5,7 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bookworm
-Date: Thu, 11 Jun 2026 00:58:42 UTC
+Date: Thu, 11 Jun 2026 01:09:40 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
@@ -32,17 +32,17 @@ SHA256:
  440dc74185d9b98e1570e751c1eff25558fa104b61eec690b9f2759c3d3efefa 182 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoqCEIACgkQvDO5O/Jx
-TafoIQ//SGPYFWHcNOx+50nDsWs5zXAVy8RPpGwKr+bK9C5JX6qkbwHDZjTweVJr
-u12gYtJHIuChxHYMlcU/qF2nuWNMVBevfHtMX/Gm0rYVsKN3JfB98uOoMHpYNJqO
-QZCTfwZ7fpmvBa1Nc4rjrNYXFQr/JXqQdacqOPOWU78yU4No9FXQBWX4S2zsFIWp
-rxCqsh+uN4zEOp3CkzK+k07P32PiMMgqYVGGgWyVIvAjvFmFud1kiC1b0cGtMPKV
-2cgINoAudFKPnJVow+RzUVclPQvvuuw4madqYhQkglfoayVBwTPVkrcq0E0Dd+sH
-K74Ms6Kjto5LhY2mE3w6ovH70iFL47Ej/Gopah8CcC2jBUMr5MPkbBleg9UcGnr8
-XlsGyiH50gBjc4Kh0xUygHrs5MMiQ72B9fANYMT7+izHFj7dw/x8wb9T6Lmtc0Qt
-OIyC17zOIn7r+y4rqdTJmnHKPiCN11HzSuURl7QzO2c/X9Msb6kFD8Vq73kqbQt0
-qX6phP0qNR1xTgoaqgeSyPsrmiuiMvIymCwn+dITTUHSOIxpt3wKfAGuS6YeotFQ
-DyjkA+s+s+LWM87HY1ruffB5gfJHUb53QL+J64W0tkfuq4rIdwTz7aJpYElCbpTt
-gJbymyv29IwPgg+Gc8qZ/+8u06ksMFYze7Ute2239dno3P2kJLs=
-=nk9Q
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmoqCtQACgkQvDO5O/Jx
+Taf2NQ/+PLqIJWhi4+IgsGhApHKF0zjMHnjkJKzgvXPYuNBFAP30DEoeGnoZ9svZ
+qJ4l/+qAxhAMIFeVI6lxnatfdWxXTX4TXuvOZ/Mx6HmBLMepTLkPBhfhMxMHMT/E
+TStZvwT0+fMulvh79aenP1sTNMMn/fL3edPTYl1WvqxTUvlU2I//kHJEnJMLUa1r
+irdUmUYerdJSiKU9Oi7onFybaXzjVMiMKBKeTVxjWTycZB0Ujt7l5HoXu0+3Fzac
+jOVAfmaS/YK17Di2Nm9dVOAa8jOAflktQv2VRLius+h7Gf6UuHoDji6RHEwdPM3k
+Tu1hPXfyYLd36sC2nLDzr7GeThWgFG/bcz5WOVjnl9c6tVdD4rwZYx3Y648pJ86z
+KgsUwr317DiCVNo2x+719ZX5DHkSI+apbr1QM8AprGTRYI2nPG5A0c7qaNZOYu0L
+XKvUSkLhTXnFNkVlQAteas+7aL+hrnjBemjboFdc7eSJew/Y9NMwpaL9yMZGtXsT
+iOK+DRxU4ZPV27RACkd7nzmTEnweY1WTGVQD3GwUOkHCVGKX/CFXMWIv6K0qenEg
+EpXOScnWA2HmxQrCIqgvz2+iJx5RYGixKtytCzE9VCuO+yzk+J3mtgJT925c7BQs
+yemXR9WIJjdf9qrp+CGauAkBhiXBjwPXQwxsa6Ks7hclbhG58W0=
+=qQTs
 -----END PGP SIGNATURE-----
