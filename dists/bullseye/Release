@@ -2,7 +2,7 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bullseye
-Date: Mon, 22 Jun 2026 02:39:22 UTC
+Date: Mon, 22 Jun 2026 02:48:10 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
