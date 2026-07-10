@@ -5,44 +5,44 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: trixie
-Date: Mon, 22 Jun 2026 02:48:10 UTC
+Date: Fri, 10 Jul 2026 02:52:19 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
 MD5Sum:
- c0a564ddc204f5f1738b10ecc0418433 4131 main/binary-amd64/Packages
- 6b87f5f31fc3e61258230d05ed398787 1650 main/binary-amd64/Packages.gz
+ 635e7e261f4296849f075d54033cd9c3 4131 main/binary-amd64/Packages
+ e6d779a2a1518cfbb06bf619cc5b1a08 1651 main/binary-amd64/Packages.gz
  97d7dafa4d76f4ff8cabc3ed61fcbaac 179 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  83f6cd45b8e3b760ccb80149c228afac 180 main/source/Release
 SHA1:
- 240c2f25762da09a2117e1672a1b298007c9df23 4131 main/binary-amd64/Packages
- 9bbd55ab4b458b03206b209a0f7924e574a8134d 1650 main/binary-amd64/Packages.gz
+ 49df4be7754a5cc9b18c39ab24a07a87c6d96cfc 4131 main/binary-amd64/Packages
+ eb407724f7b57e2dd7179864b569c77916dca406 1651 main/binary-amd64/Packages.gz
  0813496329d8c51a12f544b9f78170a4b3ab8d8e 179 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  17f6dd41800cfc1b148cde1ca3f4cfcbe9d7ffc8 180 main/source/Release
 SHA256:
- f53c40a33b1557ec2ffe45c3b43c3151a2dbb948eacc82f788d1504e05ccb533 4131 main/binary-amd64/Packages
- 6c1cd269935402181cefa69b2f3b07c6e6e0b9a7a3ea5a682f0695542c8dab07 1650 main/binary-amd64/Packages.gz
+ c386855be8bc7200db3fdecdefdfe511f2a7d88bb00011263bf05f5ee3ea9174 4131 main/binary-amd64/Packages
+ 7ae1b576b55d88e790d81d4a59810de0582acda501458e9352f1055c2d720827 1651 main/binary-amd64/Packages.gz
  5356464b8bf7d14ed42d9e5df2c5847a6bafbc10da64635d98dab011d794a124 179 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  47cae7b09b909b92f9aa1e68a99ace7b7d49ea4525c6d865180c70d6ce1815d1 180 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmo4omoACgkQvDO5O/Jx
-Tadf8A/+KAZJMxW77zP//WV2+8LWI+cAPAHQHZPFXj022hLlH5tAk3vhsH0oQwYJ
-OIh03hjV0T2pfhP1bdPkQ26+tflimdEN0ro+WBfaQdeZC6CavSIN6QDMOmJ3PyHV
-Y3hfKKLjBsQafOhji+g04nRwKpkEsNl9M0k4CQCdf4RuMD02rb86LhWx7TWJpZrf
-E5sadhdfGAB0I9juk0fCX+urxBleGYn779mtlD0VG68djuMG+tcCQtg9hAb+fIIA
-21XkyY8gZ1bh356zs3o3AhkjEmdXdA7krHWMjVXloEuNy3NlYDLCxXDEwKr8f9kn
-SVI5Hzv+RKXcRWx4DbmNj+40+AgH2e7SihBUsbqAs30z+gevecgj7cIEIMWVKS2b
-01Js6Dv3hyTYD+TmeITsp46S44OPQXB10Xgo9vafaRMUN62goQJzQzt67OumG09+
-ChE0fryHDIPkWSuJoN1JQKY2C1NWE4md77HsiJudIe9RQsZk/bHdujflgUCwArYx
-OTXlRRi4Os0x5+IWLA5tCzcq6ZXPiT6nQkDHJLY50vwqDnEvob6Y7XNU6EB8Ej0H
-Ke2Jwvinz0/A9ifB3z+KqvO8uxayvINlnfpqr19iCRj9nFm5U+1o7EnmP8ngEcgy
-ohx2+9wQ/fMNP//sg2NTEIMgbBEEmRZVwzWzkg3SsNevqpj3mZU=
-=C/n+
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmpQXmMACgkQvDO5O/Jx
+TaedoRAAumNZI62QZHIlpaLgKi786XrxwU4g640nD0E8uf7VIT80CQT2uqN33gVt
+UI4MIzMN3zhdwc+aY5JkpeN3GoNuWebYaFe6fhaFYcOG7WXR4i5T7k+QvQDGDOvi
+xuIW419OeUm4DQ4GW54mwwYuzmG53X3kcedtk1MsuLFUc9Qw/+1dO6Dioln1KsUx
+ojY6n/a/HRoAj2hQRdbx5vFRTCN0wXaa+TJSyGlGnjmKwS2F5F3mta9O6KZUWQBW
+qy8GdxDRnfXMiaLLQydUm14GPupaw6F7XF0Fb51f2sPy/KdtyQ5cZ+3pi6MCADc/
+PQgdGRkNEQhXXuWorHMMTmd7KTKnI1QtbctD9xyzTrdc72hcRcADIAL5uDp/DzYa
+gVWngS5fRrtngqpz9SZP1X+ld/IHhtlJ2mbMuUIVrOotwThEjJyfaEQGPFbdSEKg
+E3R0NUToR6yoSO9SEL/5JcKKeAqEv5CLAF/XMbesCeQccgOJeZPpMQMhl44FPjbs
+bhS6aWRchaGzhN1ra2UjwQSiepWeT2aKPFnF6xFVpCn4VeLgjfxa1QIsXB4q40qk
+TzZJS4BWNflhd1+mavVcOVaHkTqDn+mAoJXc3XFUyuyzHuZ7l89vqAC3d3W98YOa
+mfwng1D9Q0depN041fvTz6bHzJ1igV4t67NOMj3Lnx72lb7mw+w=
+=D9KG
 -----END PGP SIGNATURE-----
