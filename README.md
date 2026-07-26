@@ -35,6 +35,14 @@ sudo apt-get update
 sudo apt-get install linuxcnc-ethercat ethercat-master
 ```
 
+> [!WARNING]
+> If you recently ran `apt upgrade` and a new kernel was installed but
+> you have not rebooted yet, **reboot first**. The `ethercat` DKMS
+> module is built only for the running kernel, so installing mid-update
+> leaves you without a working module after your next reboot. If this
+> already happened, run `sudo dkms autoinstall` and
+> `sudo systemctl restart ethercat`.
+
 ## Signing key
 
 - Fingerprint: `480E E771 AEFB A7BE 1FBE  D258 BC33 B93B F271 4DA7`
