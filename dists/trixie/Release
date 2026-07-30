@@ -2,27 +2,27 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: trixie
-Date: Tue, 21 Jul 2026 08:15:54 UTC
+Date: Thu, 30 Jul 2026 03:26:06 UTC
 Architectures: amd64
 Components: main
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
 MD5Sum:
- c5f0a38176d42478c6bee06766d815ec 4131 main/binary-amd64/Packages
- 7a205f9615ab5a3f5169460fbb0d95e5 1650 main/binary-amd64/Packages.gz
+ 15b3b787f77770f07930d2796e8775f6 4131 main/binary-amd64/Packages
+ ef34512a43464891e0ffba08f5de0bfb 1653 main/binary-amd64/Packages.gz
  97d7dafa4d76f4ff8cabc3ed61fcbaac 179 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  83f6cd45b8e3b760ccb80149c228afac 180 main/source/Release
 SHA1:
- fbd587cd92f8b2bfc29e00cc3ad7b9a15901bcab 4131 main/binary-amd64/Packages
- f8a7129fec483f2b4ff00cacd057dac5b39be111 1650 main/binary-amd64/Packages.gz
+ 9a1ef4f1a82c84e196a1e08da05dd38de5c38816 4131 main/binary-amd64/Packages
+ 5596b2a08ad2308d3f09aadc309613cca06112cf 1653 main/binary-amd64/Packages.gz
  0813496329d8c51a12f544b9f78170a4b3ab8d8e 179 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  17f6dd41800cfc1b148cde1ca3f4cfcbe9d7ffc8 180 main/source/Release
 SHA256:
- 6950eb8219325f9f2ee2cae2aca910cb79713047be21096757d3ae1b9a7c78e1 4131 main/binary-amd64/Packages
- 0ffaf2d7d31aa62b1881ae149350a1627b89b67837c9d9418b2d3c3d74bb8bbe 1650 main/binary-amd64/Packages.gz
+ dffad9b84a9dd044eec0b3c0c526d0638d4604330893227b233f49adc98bc3c7 4131 main/binary-amd64/Packages
+ df770f034e0b0615f42f715282b844a8122410d3299b8f748e696ef44ca07105 1653 main/binary-amd64/Packages.gz
  5356464b8bf7d14ed42d9e5df2c5847a6bafbc10da64635d98dab011d794a124 179 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
