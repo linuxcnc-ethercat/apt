@@ -12,7 +12,15 @@ on:
                 type: string
             tag:
                 description: 'release tag to pull .debs from'
-                required: true
+                required: false
+                type: string
+            run_id:
+                description: 'CI run id to pull .deb artifacts from (instead of a release)'
+                required: false
+                type: string
+            artifact_pattern:
+                description: 'artifact name glob for run_id ingestion (e.g. *-arm64); empty = all artifacts'
+                required: false
                 type: string
 
 permissions:
@@ -30,6 +38,8 @@ jobs:
         env:
             SOURCE_REPO: ${{ github.event.client_payload.source_repo || inputs.source_repo }}
             RELEASE_TAG: ${{ github.event.client_payload.tag || inputs.tag }}
+            RUN_ID: ${{ inputs.run_id || '' }}
+            ARTIFACT_PATTERN: ${{ inputs.artifact_pattern || '' }}
         steps:
             - name: Checkout apt repo
               uses: actions/checkout@v4
@@ -74,6 +84,7 @@ jobs:
 
             - name: Check release type
               id: check
+              if: env.RUN_ID == ''
               env:
                   GH_TOKEN: ${{ github.token }}
               run: |
@@ -87,7 +98,7 @@ jobs:
                   fi
 
             - name: Download release .debs
-              if: steps.check.outputs.is_prerelease != 'true'
+              if: env.RUN_ID == '' && steps.check.outputs.is_prerelease != 'true'
               env:
                   GH_TOKEN: ${{ github.token }}
               run: |
@@ -96,6 +107,22 @@ jobs:
                       --repo "$SOURCE_REPO" \
                       --pattern '*.deb' \
                       --dir incoming
+                  ls -la incoming
+
+            - name: Download CI run .deb artifacts
+              if: env.RUN_ID != ''
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: |
+                  mkdir -p incoming
+                  args=(--repo "$SOURCE_REPO" --dir incoming)
+                  if [ -n "$ARTIFACT_PATTERN" ]; then
+                      args+=(--pattern "$ARTIFACT_PATTERN")
+                  fi
+                  gh run download "$RUN_ID" "${args[@]}"
+                  # gh extracts each artifact into its own subdirectory;
+                  # flatten so the codename routing step sees one dir of debs.
+                  find incoming -mindepth 2 -name '*.deb' -exec mv -t incoming {} +
                   ls -la incoming
 
             - name: Add .debs to reprepro per codename
@@ -131,7 +158,7 @@ jobs:
                       echo "no changes to commit"
                       exit 0
                   fi
-                  git commit -m "ingest ${SOURCE_REPO}@${RELEASE_TAG}"
+                  git commit -m "ingest ${SOURCE_REPO}@${RELEASE_TAG}${RUN_ID:+ (run ${RUN_ID})}"
                   # Defense in depth: concurrency above should prevent races,
                   # but if a manual run or queued dispatch slipped through,
                   # rebase onto remote main before pushing.
