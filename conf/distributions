@@ -1,7 +1,7 @@
 Codename: bullseye
 Suite: stable
 Components: main
-Architectures: amd64 source
+Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
@@ -10,7 +10,7 @@ SignWith: 480EE771AEFBA7BE1FBED258BC33B93BF2714DA7
 Codename: bookworm
 Suite: stable
 Components: main
-Architectures: amd64 source
+Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
@@ -19,7 +19,7 @@ SignWith: 480EE771AEFBA7BE1FBED258BC33B93BF2714DA7
 Codename: trixie
 Suite: stable
 Components: main
-Architectures: amd64 source
+Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
