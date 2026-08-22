@@ -9,9 +9,9 @@ URL: <https://linuxcnc-ethercat.github.io/apt/>
 
 | Codename | Debian | Architectures |
 | -------- | ------ | ------------- |
-| bullseye | 11     | amd64         |
-| bookworm | 12     | amd64         |
-| trixie   | 13     | amd64         |
+| bullseye | 11     | amd64, arm64  |
+| bookworm | 12     | amd64, arm64  |
+| trixie   | 13     | amd64, arm64  |
 
 ## Usage
 
