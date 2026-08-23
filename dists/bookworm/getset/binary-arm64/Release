@@ -1,0 +1,6 @@
+Archive: stable
+Component: getset
+Origin: linuxcnc-ethercat
+Label: linuxcnc-ethercat
+Architecture: arm64
+Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
