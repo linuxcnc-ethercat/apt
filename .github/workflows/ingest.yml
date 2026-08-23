@@ -68,7 +68,7 @@ jobs:
                   shopt -s nullglob
                   rm -rf db dists
                   mkdir -p db
-                  for d in pool/main/*/*/*.deb; do
+                  for d in pool/*/*/*/*.deb; do
                       ver=$(dpkg-deb -f "$d" Version)
                       case "$ver" in
                           *+deb11u*) codename=bullseye ;;
@@ -79,7 +79,17 @@ jobs:
                               continue
                               ;;
                       esac
-                      reprepro -b . --keepunreferencedfiles includedeb "$codename" "$d"
+                      # reprepro keeps a single version per package per
+                      # distribution+component, so the HAL flavors must live
+                      # in separate components: plain in main, +getset in
+                      # getset. Without the split the higher-sorting +getset
+                      # build evicts the plain one and 2.9 systems lose their
+                      # only installable candidate.
+                      case "$ver" in
+                          *+getset*) component=getset ;;
+                          *)         component=main   ;;
+                      esac
+                      reprepro -b . --keepunreferencedfiles -C "$component" includedeb "$codename" "$d"
                   done
 
             - name: Check release type
@@ -145,7 +155,13 @@ jobs:
                               continue
                               ;;
                       esac
-                      reprepro -b . --keepunreferencedfiles includedeb "$codename" "$d"
+                      # Plain flavor goes to main, +getset to the getset
+                      # component (see the rebuild step above for why).
+                      case "$ver" in
+                          *+getset*) component=getset ;;
+                          *)         component=main   ;;
+                      esac
+                      reprepro -b . --keepunreferencedfiles -C "$component" includedeb "$codename" "$d"
                   done
 
             - name: Commit pool/dists updates

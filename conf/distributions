@@ -1,6 +1,6 @@
 Codename: bullseye
 Suite: stable
-Components: main
+Components: main getset
 Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
@@ -9,7 +9,7 @@ SignWith: 480EE771AEFBA7BE1FBED258BC33B93BF2714DA7
 
 Codename: bookworm
 Suite: stable
-Components: main
+Components: main getset
 Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
@@ -18,7 +18,7 @@ SignWith: 480EE771AEFBA7BE1FBED258BC33B93BF2714DA7
 
 Codename: trixie
 Suite: stable
-Components: main
+Components: main getset
 Architectures: amd64 arm64 source
 Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
