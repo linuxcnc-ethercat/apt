@@ -5,80 +5,80 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: trixie
-Date: Sun, 23 Aug 2026 00:28:16 UTC
+Date: Tue, 08 Sep 2026 11:11:28 UTC
 Architectures: amd64 arm64
 Components: main getset
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
 MD5Sum:
- 6d395238743be6f0bc1571b859a1eece 4131 main/binary-amd64/Packages
- 1e803341d5b400bb2ceef8a8f49a2aa3 1651 main/binary-amd64/Packages.gz
+ af4df7b5c57f5177bf1dfe9f9a37b5f3 4131 main/binary-amd64/Packages
+ 6885f543d9e56102dc1df2d4a2fb57b6 1651 main/binary-amd64/Packages.gz
  97d7dafa4d76f4ff8cabc3ed61fcbaac 179 main/binary-amd64/Release
- a1b2c206d941ca072a67bb759624bd89 4131 main/binary-arm64/Packages
- c50694adeddf14c2173049133b035442 1649 main/binary-arm64/Packages.gz
+ 51936f458238b8a96ab0220611521cfb 4131 main/binary-arm64/Packages
+ 60a5873a2c2abc391afe3c16a35f52f3 1650 main/binary-arm64/Packages.gz
  ef6f58ef8e0ce9133a6d4f843624a1ca 179 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  83f6cd45b8e3b760ccb80149c228afac 180 main/source/Release
- d5b7285d52a42fea7c7d7cf173e2afdd 1013 getset/binary-amd64/Packages
- d3a1734d609a0a144a0285a912825b13 593 getset/binary-amd64/Packages.gz
+ b66ef0f2435cde1d3428f970af2af1c6 1013 getset/binary-amd64/Packages
+ 1519e20240237e0236d440c90b2f8939 593 getset/binary-amd64/Packages.gz
  223e2430877a60236ec632bcf24b2e70 181 getset/binary-amd64/Release
- a2fc6c38f8c4ebd711fae7870089fc44 1013 getset/binary-arm64/Packages
- f0f8f67dec016f1f102fc8f0642cc71d 595 getset/binary-arm64/Packages.gz
+ 089de5491ec95fba96ef5b22fa86111b 1013 getset/binary-arm64/Packages
+ 5b62f4090c72a3ee02a4cdd500f6b632 596 getset/binary-arm64/Packages.gz
  f02fabbd8f137a6f8f5a2a801f910887 181 getset/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 getset/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 getset/source/Sources.gz
  253fbc622afb496a27d4c606d6673d2c 182 getset/source/Release
 SHA1:
- cfb2b524887ddef0ca967b2b14064dfbdfe0a237 4131 main/binary-amd64/Packages
- 0fbec9fabb291365bc0b27e49d4ac27b78a43f21 1651 main/binary-amd64/Packages.gz
+ 3969e6de6090f347bc6edca81ea273a34dc76170 4131 main/binary-amd64/Packages
+ 524b1ed293d38d53e0c03f5a05438a792f73c34d 1651 main/binary-amd64/Packages.gz
  0813496329d8c51a12f544b9f78170a4b3ab8d8e 179 main/binary-amd64/Release
- 48e75d3ff13df0f963719d1e657a63d7653e46d5 4131 main/binary-arm64/Packages
- c0a09918aae968b95902e69e8c8ed90d7ee8c5f2 1649 main/binary-arm64/Packages.gz
+ 75ac98b9fd2eeb4944252d86fd9ee37830872267 4131 main/binary-arm64/Packages
+ 898019459a59549fd807c956175634a3557b79fc 1650 main/binary-arm64/Packages.gz
  fea20e7a84d3300a3f4927228d2d0994e67d9ac5 179 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  17f6dd41800cfc1b148cde1ca3f4cfcbe9d7ffc8 180 main/source/Release
- c2e07d47732f682eb55548aa4a8c21b399a2c66e 1013 getset/binary-amd64/Packages
- e72e2c874b43ed57f9982164c19a6156b53a52dc 593 getset/binary-amd64/Packages.gz
+ 92903a372cb466a4bb398b8db85b12ff914e1ff3 1013 getset/binary-amd64/Packages
+ c86a1a24f52fff88ec56473fc807ac58a6a1ec11 593 getset/binary-amd64/Packages.gz
  1b118f9705f79318ca8bad95eb6dae91674744ac 181 getset/binary-amd64/Release
- b873218cd074369b173b154d874aed1c7afe3939 1013 getset/binary-arm64/Packages
- 31f6841be5135ca80aa76711b982250f4cbb8caa 595 getset/binary-arm64/Packages.gz
+ 9737f7ab957b5b22f538055da421e62278a3d919 1013 getset/binary-arm64/Packages
+ 99aeabac876cdab7404a91e05c743aaa3e8fd1e6 596 getset/binary-arm64/Packages.gz
  42f6c4fae8526e5af9d41fcd9a1c7fec3655719b 181 getset/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 getset/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 getset/source/Sources.gz
  bd3e8081e5c21066f9818a1b3e3f18e7439fe727 182 getset/source/Release
 SHA256:
- 84490c9d07b58e63afd116569bd68333bae6d20f71f6310964d8f927f6533481 4131 main/binary-amd64/Packages
- 0f1640ddb6b6115e17329448cdaab1f16ed83e1ab60c369ae2b2afe1734bbee8 1651 main/binary-amd64/Packages.gz
+ cc48894d558f075b6932728ce2f9fb491754fbfaa4264113bce107c28cd28d18 4131 main/binary-amd64/Packages
+ c6d94d3af058b387b9f1620b5583be8af36478966002676d9d945b8752c165fe 1651 main/binary-amd64/Packages.gz
  5356464b8bf7d14ed42d9e5df2c5847a6bafbc10da64635d98dab011d794a124 179 main/binary-amd64/Release
- b1fed2a357eb469db3d5badca624f71b42a6786225dcb44b2a2bb194cbf8d922 4131 main/binary-arm64/Packages
- 74ec5f0cb381eb2f45db0d96cd3b097445870a53a0ca74004f664b786e529882 1649 main/binary-arm64/Packages.gz
+ 413192d5c83a4200cd6eb835ae26afef41b747c268f219390277ee73dabb4c7f 4131 main/binary-arm64/Packages
+ 5026ced70b8c5cb8ab42fdae4e2fc0ef60f3da8f733c3c58e972df1c9d4207ad 1650 main/binary-arm64/Packages.gz
  07e656c95a1f79e0327a6bd052b6076971f1b792f28500e2b421bf89de32a09e 179 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  47cae7b09b909b92f9aa1e68a99ace7b7d49ea4525c6d865180c70d6ce1815d1 180 main/source/Release
- 5863e2a3ed2b73f3d7c9d51a04071fe5a974a20ff6bc5056613f4b9830377a73 1013 getset/binary-amd64/Packages
- 3b019ce4f33dafc8beb288fa8e1c82d1ca6fd2d895b1c6866f3d42709a342da0 593 getset/binary-amd64/Packages.gz
+ 9614bcc8753bb95e4acfba0843463e252718b74ebe102cadcbf3deb2bf3a5a20 1013 getset/binary-amd64/Packages
+ d1bec60f80bd4b5ad83ca923a1f0c48ad89bd4b16ea0e8f1ce5e8fd802701533 593 getset/binary-amd64/Packages.gz
  3b6710fe1b865b77307f42cd977fe4d09df8d0bdb44d4d8aa6a700a6b06b0aa8 181 getset/binary-amd64/Release
- 614648a96074dffa00c9655c3e38ecb86e45b424c28bdfa0a3d9bcc644e037ca 1013 getset/binary-arm64/Packages
- d5445ae12abb4d128133fcc4e0b0fce69417080f4edcfa9c2913316eb0a448ae 595 getset/binary-arm64/Packages.gz
+ 5dabfe18be4a17d247858efca8867c53377aaff751ae65949c300664a3c8401d 1013 getset/binary-arm64/Packages
+ 099d4899bbba11b26d53129f5f5422ddf6e2cfa836cdf497df0ef1765215ce9d 596 getset/binary-arm64/Packages.gz
  8f95be6eb1b78bf561e482d024b3b81e4ce7f18ce728e5824b022a1a7985168a 181 getset/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 getset/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 getset/source/Sources.gz
  086c67eeca0fe0c444f4419419195e7d51250a215aec10261605a461ae590b00 182 getset/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmqKPqAACgkQvDO5O/Jx
-Tafp5Q//bVfXiBopU/xUFbRtjVqmGctN1v4+ykK7dAFkGMm+O/zaWRfR1csDTJMz
-/uPhj3VCGwhrpByf2ZtZRCyTG/LOVNH4uh24s0xl0adBD7rfzbvRUVni8n2m0TF0
-jYcx9tb25X2H8udk+P6QAlau13CmFfYm+6jWpiwTO2lDbUXVRW+l6R0AocWTUeud
-xveF8sBpY8Ai3XZDpRLydlgkJ9HigJSp5dtjm4QP9MZFmO/zvLu8g4tL6fITI4hg
-h3FlvvkRZ/MWF3F3I6S9Ydg+Vu/DoZsAHwhxc2215AyI4GTl+04o+1HnFx/zb0ci
-eod3wdD9YDOugOKrkAANFSsiJjWI6kSi/39sFY31LPeL0PObLuAMtqg1UAS1Ynon
-9kGI7sGLzcyOLhsHCkQWH9BnMU/AASFqxRyY2kdPEGwU14uaHIgUcTuVBg9L8LIX
-LEQnpmGwVZW8KNiFs8NQ+9MQmGamxrtsezRrRwZa33jP6q5UxVyGCCrQ8Dd/Zjym
-URIQh+YlF4ihs6zbaafSHTi5OzwrZIcDVeE+1XvVLB4mUTREZv1KprG0n+NpsMUo
-ZGHyV99Rk/S1WUbqi2uzvccBF76Nb93ZaOAQSD03wyjhlrFU0oZDgscGGPM4rIE5
-o+bwk5KyFwBg7VDTU7Nhc5Xn/xP4GTD31BiMdu9VccPVtdsdBxE=
-=VSjQ
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmqf7WAACgkQvDO5O/Jx
+TactXA/+Izp4ktKMu1df4vRXCYTNgQ3KLjgXYw4L7g06AwcFV872TZYb1TSZkqDp
+wfRG+pNxtuE8m03ihbLNWZhc6lbksVN+dnH6OeP5y4tPta24MVFkzVTC0AgqWBgC
+bWzgbPUEM5sD2E5ghFoW4TKN2hNFV98uLbvXW6F706kPpTocXPpuyKNljT7L6AWd
+YZrarnqtz/WxrkeGFXU/rct0/apn2CJ3rpjSD1AwLPdrPC/lCw8E1MdW6wybLTmk
+3bBr7Ifxd7Kj6SEVdrT96UU3nevUcG/rxbiVo5dOjgwWc/1gM8unXkXXp4kELHKC
++64f411Or1tZyq6zl5gg3fSjUiq4LIV45eFOcI/xAktI4ssg22f7cSQCuoy38Xkq
+f8OD+DvjFDbOi5mmPcvAN+quGajyulI80XOIErk5zVOnuwOZ06VoN6T+I2c9FJvm
+Z2Ht+bmBXFlEe3zazt5SVQTHQEE4BkfMWizrp9sHG3JZZxUXydjn25MzqpLwVHvy
+tiMb62lVn8R03JU2fCHWftmSlsHgNY+ow72YHj5SBJ4TvSTccpF29hwZ/BPvfhkE
+K7MhXnkqyEiVTL9+6T7L96oGa0vM+EKhp9AXKl2sbBFwjNrjysf6fhfGPwJwn33h
+r8ljT2YYDcXhnFUFObo2v785j9zpwq2DCoeBwTC2vSzNg8TFDys=
+=XuR8
 -----END PGP SIGNATURE-----
