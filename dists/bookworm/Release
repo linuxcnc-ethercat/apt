@@ -2,16 +2,16 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bookworm
-Date: Sat, 03 Oct 2026 05:07:16 UTC
+Date: Sun, 04 Oct 2026 03:36:18 UTC
 Architectures: amd64 arm64
 Components: main getset
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
 MD5Sum:
- aa016201bf295181dcfed894d8fdacf7 4153 main/binary-amd64/Packages
- 6b9a23fff025882191a8a8731aba4f9b 1661 main/binary-amd64/Packages.gz
+ 80c48b28d8fb8d4cf2e756e1f72f4794 4153 main/binary-amd64/Packages
+ 4dcff9e3f1c7649ccafc46674be882da 1654 main/binary-amd64/Packages.gz
  f950e23a6ae6ce8c7cfde402504f7ea0 181 main/binary-amd64/Release
- 4f160ecc9c7329be3aa32b7a9e0826f5 4153 main/binary-arm64/Packages
- 9e1b7304cc2d97fbdd85d0137fe9c257 1661 main/binary-arm64/Packages.gz
+ 386167eafb4c232e71fe7a00f2dfd240 4153 main/binary-arm64/Packages
+ 9db77efda2963ab56f49e9b94d7e4356 1658 main/binary-arm64/Packages.gz
  52efb1cca1584a700f3237c7d7b16c7a 181 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -26,11 +26,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 getset/source/Sources.gz
  23ee2a0848d3bbeecbf5cbb24b6d232e 184 getset/source/Release
 SHA1:
- 0e686aa0b66443886e658e2f2667932ab994a524 4153 main/binary-amd64/Packages
- aeb414bf7d3cfb2dd00c7720e548417cd84cd1e9 1661 main/binary-amd64/Packages.gz
+ 3c37730253bb19366ce4ee40c27bbdae5927e2e8 4153 main/binary-amd64/Packages
+ 1e4d062af83c86fc845076302ae9ae9146c9b41a 1654 main/binary-amd64/Packages.gz
  034d90e90bd617b7b8303ec497ba5c0e0149be5f 181 main/binary-amd64/Release
- 6df0a8e812f6258a02137b17da9fb4187737b00a 4153 main/binary-arm64/Packages
- f9a010270589eed90d68737ea7f236776becfd0b 1661 main/binary-arm64/Packages.gz
+ 30226a4b953b8eff8eb784dd565f823d7430b57c 4153 main/binary-arm64/Packages
+ 6580c3af374a9aac80fc926863ff018f82b0276e 1658 main/binary-arm64/Packages.gz
  c6d5c5406378ce5e7f2290f35206294e3cea0579 181 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -45,11 +45,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 getset/source/Sources.gz
  450f67570790838eabedb6f0a1685d89d6d82a95 184 getset/source/Release
 SHA256:
- e74ed5251e4e7b037e0ccea4d535c094afd0b17ffb91b0c93acc81d088599e64 4153 main/binary-amd64/Packages
- 1a0167cf1d76731138d494d1b9f5c29b23962c3d6c2a33354c4ceac2f57fc4d9 1661 main/binary-amd64/Packages.gz
+ 9cda6bbc59a526c4d14ce6dd34e3c1e8d457ebb6af9bf35f42a8ecd3812e96ea 4153 main/binary-amd64/Packages
+ 1d9c27b3d647001b7e4b8fe7259e6a01a2723ed65b49c875bfbc36dc06e0167f 1654 main/binary-amd64/Packages.gz
  b997ade5b28afaad12fc70de48fc01f7bc01e8238c338422ba84464bc6ef0969 181 main/binary-amd64/Release
- 075bac48b760f0169ad1693e1f6502361a5e4908284242d279431ec7386fe4fe 4153 main/binary-arm64/Packages
- 3a06bb9c5df3a79282d374597f9e7dba110d860c2ac932af924e273d56ab167c 1661 main/binary-arm64/Packages.gz
+ 0383f99ee5af84bfd786b3fa466f9093770d65f0f342615e0337f616db0d95b1 4153 main/binary-arm64/Packages
+ 8d3e9c43918e5759faea3422ee55378111e6be8c84538c28b731b6517699116b 1658 main/binary-arm64/Packages.gz
  dc0798d53c8c90429340f00d5213af2fa545cdf51cf84b9a1610b91cc78051b6 181 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
