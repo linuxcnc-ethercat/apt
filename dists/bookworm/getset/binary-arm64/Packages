@@ -1,19 +1,19 @@
 Package: linuxcnc-ethercat
-Version: 1.46.0+getset-1+deb12u1
+Version: 1.47.0+getset-1+deb12u1
 Architecture: arm64
 Maintainer: Luca Toniolo <toniolo.luca@gmail.com>
-Installed-Size: 1153
+Installed-Size: 1368
 Depends: libc6 (>= 2.34), libethercat (>= 1.5.2) | etherlabmaster (>= 1.5.2), libexpat1 (>= 2.0.1), libfuse3-3 (>= 3.2.3), linuxcnc-uspace (>= 1:2.10.0~pre2), etherlabmaster | ethercat-master
 Conflicts: linuxcnc-ethercat-bb, linuxcnc-ethercat-pi
 Replaces: linuxcnc-ethercat-bb, linuxcnc-ethercat-pi
 Provides: linuxcnc-ethercat-bb
 Priority: optional
 Section: misc
-Filename: pool/getset/l/linuxcnc-ethercat/linuxcnc-ethercat_1.46.0+getset-1+deb12u1_arm64.deb
-Size: 160736
-SHA256: 78960fc474bbc648f6b6aae0a045cdc6271cb12a2531f18226359380580431ed
-SHA1: 0f253982edbdf448207ce625ec79c6146b43d55e
-MD5sum: 0a7d8409aa144ab94d707ae59181c6b5
+Filename: pool/getset/l/linuxcnc-ethercat/linuxcnc-ethercat_1.47.0+getset-1+deb12u1_arm64.deb
+Size: 174176
+SHA256: c812455bae3c9755d4b650e4035ca1a1e21e3b7186d9069a40c392a3bbfa17b7
+SHA1: e3fc6d0e76785fa78f7b16a4f913087fbe857f91
+MD5sum: 768c49dfa19adeab268df2040b4543a7
 Description: LinuxCNC EtherCAT HAL driver
  HAL driver letting LinuxCNC drive EtherCAT slave devices via the
  IgH EtherLab master. Supports CiA 402 motion devices, generic PDOs,
