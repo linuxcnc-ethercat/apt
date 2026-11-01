@@ -5,16 +5,16 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bullseye
-Date: Thu, 29 Oct 2026 03:31:43 UTC
+Date: Sun, 01 Nov 2026 02:35:01 UTC
 Architectures: amd64 arm64
 Components: main getset
 Description: linuxcnc-ethercat and ethercat packages for Debian 11 (bullseye)
 MD5Sum:
- c62a96bd06e6852f43ea617da4c51831 4129 main/binary-amd64/Packages
- da7c001aef736390a0b3efd151bbf0cf 1647 main/binary-amd64/Packages.gz
+ 77cce894540c5646b9b7c567b8381520 7695 main/binary-amd64/Packages
+ 4a23c6908d18acec062e385d1b4560e2 2175 main/binary-amd64/Packages.gz
  1601c8eccf5d2c81231692485af81941 181 main/binary-amd64/Release
- 94b8df6a296377dac9baed52e8dfa104 4129 main/binary-arm64/Packages
- ad39596cbbf934b92d0c714169771225 1648 main/binary-arm64/Packages.gz
+ 50c85f31f8362c3d25556adbea440212 7695 main/binary-arm64/Packages
+ f1693b5c2ebe2c262d6267bbf925aae7 2184 main/binary-arm64/Packages.gz
  96b21425fe3f383f0b5eb05359f280ec 181 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -29,11 +29,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 getset/source/Sources.gz
  73dd999a1cf49db181d9f015de909782 184 getset/source/Release
 SHA1:
- d8fde867d91cdabc225b418ccb76f274cd638e76 4129 main/binary-amd64/Packages
- caa40bda8c0bb69fdadac77fffda09a57e3654fd 1647 main/binary-amd64/Packages.gz
+ 6c318a23e157b45cc3cd11ddbefac490e7eb63cb 7695 main/binary-amd64/Packages
+ fd128d9a62e7d13119e774f0cfeb5686ad7e57e1 2175 main/binary-amd64/Packages.gz
  679976ce80617228480c436319ae875b00add59a 181 main/binary-amd64/Release
- c57378ce5fd65009076324fa7f3df63bd785269d 4129 main/binary-arm64/Packages
- 3ea98e855c1e3a05d6e83887cec6e10083ea90db 1648 main/binary-arm64/Packages.gz
+ 1c753d6f8655592b9dc010b048e7aa5d3cadb174 7695 main/binary-arm64/Packages
+ 3ac89b4e3ab4395b412071e7bbceb3444e0c418e 2184 main/binary-arm64/Packages.gz
  17d3d06244991d1094064a523a43174b30c46f7b 181 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -48,11 +48,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 getset/source/Sources.gz
  97a25725b5165d04077f3ffdb8f52c2188499bb5 184 getset/source/Release
 SHA256:
- b0cb623fc512f3be9b3135975e6e08961f70a66c2aab1a5b5402911980e9bdac 4129 main/binary-amd64/Packages
- 04385a667e6d64b185ae793bfee7fb353a6bfc98a4383f90fa0c3144c5150817 1647 main/binary-amd64/Packages.gz
+ ded273bae0945b1e7883344485cc33ce05fa5e499c6d2b261a5f07bc3d48bb9d 7695 main/binary-amd64/Packages
+ e5dd5dc905da6abf2d48eeec21b17a3c4d72890067aa1a9dc8b5b2e1a5254c05 2175 main/binary-amd64/Packages.gz
  ae275af45e150ff1e0c5cf790297821ed97738d6d854d278dcf65cb1b6b6d6f9 181 main/binary-amd64/Release
- 90ac883c905cb6027b8f5951c9949cd658b73e21db298c395096c6c1495cbb4b 4129 main/binary-arm64/Packages
- c90045e9701133e0965969a7bdd488c863598a9a5fd08f7a8d8c3c79c749a4cf 1648 main/binary-arm64/Packages.gz
+ f66457003d45fc85213431bc5160b223156364ea3fc088ee9553b6a9787b8aa5 7695 main/binary-arm64/Packages
+ 271a9e73185c8bf9fc7b730e6247dead1206cf2128201a6ee887317077e7f523 2184 main/binary-arm64/Packages.gz
  556f559e56f92a914606233cb12111cad1320ce49c339e5514c388f4c24c1c49 181 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -68,17 +68,17 @@ SHA256:
  1f54a6efa3570a9353ff432bec26113960a6f6f2ff8f5fe91038e922b3e49808 184 getset/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmrivh8ACgkQvDO5O/Jx
-Tadobg/7B6KF5+2CMvctX7quGKq+6vlDlWrEI4z+8nIe9rWJPKo9o5o9hqXmajIK
-tr/L+KRP6PYeFr2g6apUh8XcyB9tRvTy0A7yshLAu3hC8mBNBbTpUbeDnlVWEKH7
-Q7tuwRo1XYe0V2WaT7afnp0RsYxiHQEzNLXWqcg4KRUSzgqut3rN4iNEQ78h2Kue
-taOble7HrMIOi7KtvPbyKVoAGj4jIjj78HyCIXLPwbEKyV/Ntd0RYYmzr4+PsGTw
-ZX6wSJjupvv/b6Y0vMvgKLoivTF3oZwMNpFH/UGRTmoWfb/wBL407HUBhQ8weVcP
-uZ+Fhk+0kg9lPuJNL/yaKep7l4BVQZgrmWEZV5SZ/UHKCFArpizhz6mogqiQvjv8
-X7mrUWwu4d6KIOPyJ1n3IhXiGaN1UKQPlNlvULVH4wF5BtVtLsbbI16sgczVC/tY
-2H7y/KwyLZgzalC44yNbblgJCVpib+tCIaW5jTrxSTOcPjo8qxT/2bFgV+jw449y
-kTE1hoHPnXDta5jcH2lBWd4cOIrO/jY1LW89c9WkUCV8Diwau/bdwBdEzUDnOhIP
-ggrqVOIVeVJBVlpAVecJCUtWmQu9njF9f6+Gb0NWqHy9Zn8yeoUb1CzjNGnlencd
-izVdEl22qCF/A750bKlJvKNGCGX9wiWX8WcvO57yvBBYDTuFOoc=
-=hAj6
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmrmpVUACgkQvDO5O/Jx
+Taf1PRAA1U7AlNeiUvzS8SftsRKaSar1jvHsGfTx7lmdT//ug2MnOAybtBEy/TK6
+lMWVw6KYrJixG+zwg2DetTwXE1abAbGis2kpI2WYfMA2R+TngTlELw+pP2nqvxsK
+Z96VQpcX/OizWP/6VqS85otEYIDuESGlMj/E69htEYIAMtUeXb6ISnQqOacVAkR8
+UQwRvwm+mRKK1NjnApwHm9DvWeLXWWiw0QFhgAJk0nh+lsMngtwjaKMnGaYNdXOG
+zccRWAdtmYSm65H70sZEKWk1HDW7S9G0J8jeP9rI3Vkaj2c3RSprjhO/BSfr5ZcJ
+lqMhZbDOcS01cq9TjNa0i0PbvtwUo/4Fn8ua8AbPhDL4ye/fhz+LTgDa46XINPvC
+aEEsLytzZeDrTodfnSuhRYmUCWP5Zayp1FwffKSNXKQSeChq8WIqqQikE+IAipkL
+eIuaGntDVZef9dbiMvn7B9cyiGGYJuDG1e7LsifexPHm1sJk74MZ7I7eRJ7jWZC8
+NgmksYWdl1OhIukbGDBcg4YCmnCiYIuVFF2NG6Ohmkt7v9bdvTQr061v/JeZe80X
+WP4SPs9z+Qkszw5mCmANEfbciDG6rBpNYS2VSjVVoxb88GnNtZwkryoPwO8jxwo1
+66NjwsYeyQgFQzrjTb4ckmlZ2lqdoUqzoEFr+QPhcNRUuLDk7EI=
+=GH5T
 -----END PGP SIGNATURE-----
