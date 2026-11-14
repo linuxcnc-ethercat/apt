@@ -1,126 +1,126 @@
 Package: ethercat-dkms
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: all
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 94870
+Installed-Size: 94879
 Depends: dkms, autoconf, automake, libtool, pkg-config, make, gcc, libc6-dev | libc-dev
-Recommends: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers
+Suggests: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: kernel
-Filename: pool/main/e/ethercat/ethercat-dkms_1.6.13-3+deb13u1_all.deb
-Size: 3519004
-SHA256: 684abef6a512eb10e2d38838760d5301d366c28f17799d3f0949194f7dfe1851
-SHA1: a31297bf7107a7aa02b09834488c1f1e9d5788da
-MD5sum: e342a6e0ce6ccddb83dcfd09eb0390ff
+Filename: pool/main/e/ethercat/ethercat-dkms_1.6.13-4+deb13u1_all.deb
+Size: 3520712
+SHA256: 214e45fe2fd83f9fa106e580d980be8b77ad96cc3caa7edcd0ba5a2fd7655f7c
+SHA1: a16799b9c992f951a31f3d9f97331143f4f6da59
+MD5sum: 0a4baa5c32070299864edbf658916bfc
 Description: IgH EtherCAT master — kernel module source (DKMS)
  Source tree for the EtherCAT master and included network-card drivers,
  built against the running kernel by DKMS when the package is installed.
 
 Package: ethercat-dkms-eoe
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: all
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 95299
+Installed-Size: 95308
 Depends: dkms, autoconf, automake, libtool, pkg-config, make, gcc, libc6-dev | libc-dev
-Recommends: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers
+Suggests: linux-headers-generic | linux-headers-amd64 | linux-headers-arm64 | linux-headers
 Conflicts: ethercat-dkms
 Replaces: ethercat-dkms
 Provides: ethercat-dkms
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: kernel
-Filename: pool/main/e/ethercat/ethercat-dkms-eoe_1.6.13-3+deb13u1_all.deb
-Size: 3625740
-SHA256: 44f3314cb81d10c93c5a7541ada762060250ca336a0af78a8f02d965276d83ad
-SHA1: 6253ef199ad12010c84dcca7612aa096fe045fbf
-MD5sum: 836bc800d35662ff46b16d4dc2f35c16
+Filename: pool/main/e/ethercat/ethercat-dkms-eoe_1.6.13-4+deb13u1_all.deb
+Size: 3625800
+SHA256: d1295c0b26eb370d47545db88d06ff70694e70ade8af3865885a22d3cd3bf351
+SHA1: ccdc34cff7adbd3ab5acc53485bf00aeb57137fc
+MD5sum: 3b31326e86b06ad3837e42741122c0ec
 Description: IgH EtherCAT master — kernel module source (DKMS)
  Source tree for the EtherCAT master and included network-card drivers,
  built against the running kernel by DKMS when the package is installed.
 
 Package: ethercat-master
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 562
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), ethercat-dkms (= 1:1.6.13-3+deb13u1), libethercat (= 1:1.6.13-3+deb13u1), iproute2, kmod
+Installed-Size: 563
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), ethercat-dkms (= 1:1.6.13-4+deb13u1), libethercat (= 1:1.6.13-4+deb13u1), iproute2, kmod
 Conflicts: ethercat
 Replaces: ethercat
 Provides: ethercat
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: net
-Filename: pool/main/e/ethercat/ethercat-master_1.6.13-3+deb13u1_arm64.deb
-Size: 129392
-SHA256: d81d71b83f395c246e3d7ba6eed603f0053e9a248d8666ac4d29f56a1c004ec1
-SHA1: 25d1727842377ac5f140f1ca1585c308b7c806c4
-MD5sum: c4d902731cd01d3e116b128e886e110b
+Filename: pool/main/e/ethercat/ethercat-master_1.6.13-4+deb13u1_arm64.deb
+Size: 129480
+SHA256: 4462e409d6b2eb5d8ba10950a0741fde717081071e1d2cd2bcadf57b35f92333
+SHA1: a11ca7e70e3f63c5a841c0d4d40878c7b5f2d20b
+MD5sum: 2ea73aa5f4726309cb164858bdd492de
 Description: IgH EtherCAT master — userspace tools and services
  Command-line tool (ethercat), ethercatctl helper and systemd/sysvinit
  units for managing the IgH EtherCAT master at runtime.
 
 Package: ethercat-master-eoe
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 562
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), ethercat-dkms-eoe (= 1:1.6.13-3+deb13u1), libethercat-eoe (= 1:1.6.13-3+deb13u1), iproute2, kmod
+Installed-Size: 563
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), ethercat-dkms-eoe (= 1:1.6.13-4+deb13u1), libethercat-eoe (= 1:1.6.13-4+deb13u1), iproute2, kmod
 Conflicts: ethercat, ethercat-master
 Replaces: ethercat, ethercat-master
 Provides: ethercat, ethercat-master
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: net
-Filename: pool/main/e/ethercat/ethercat-master-eoe_1.6.13-3+deb13u1_arm64.deb
-Size: 137640
-SHA256: a8bdfce26c9c800ddcc08e20604bf38817604a4898d5f193559ab57e8e5893d2
-SHA1: 9542b2bfab58e5a464d22396cf191a4646e25dab
-MD5sum: 452adefbeda64832f4c3ba7d0aeef713
+Filename: pool/main/e/ethercat/ethercat-master-eoe_1.6.13-4+deb13u1_arm64.deb
+Size: 137872
+SHA256: 010d2febf309347447b76a15dbbea9ca50c22fd1fbc7df0627190a200a545b7b
+SHA1: e67d2884c7954fce5e485316fc8da072bccf8b1f
+MD5sum: 89576b0fd9bce9f160582251596b4c71
 Description: IgH EtherCAT master — userspace tools and services
  Command-line tool (ethercat), ethercatctl helper and systemd/sysvinit
  units for managing the IgH EtherCAT master at runtime.
 
 Package: libethercat
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 79
+Installed-Size: 80
 Depends: libc6 (>= 2.17)
 Multi-Arch: same
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: libs
-Filename: pool/main/e/ethercat/libethercat_1.6.13-3+deb13u1_arm64.deb
-Size: 15364
-SHA256: 2e05bc7c7715fa6fe8bf04d6f17f7f132c17cbec5b2f68939b880964c15070ea
-SHA1: 5309f0e5e64939ade23ff11ee6e8dd2b3c81bc2b
-MD5sum: 0052e3bd15838b091167f9b72bfe8152
+Filename: pool/main/e/ethercat/libethercat_1.6.13-4+deb13u1_arm64.deb
+Size: 15476
+SHA256: 9fb70043341792d953ed15b8d9e00bb224a4d2146f10256502e3bd6f8b41d277
+SHA1: 950101ffd3cde54151c23d92e03c9add2bbe0125
+MD5sum: 06fc3018e994e5dcf398a744cfc0c1b5
 Description: IgH EtherCAT master — runtime shared library
  Shared library (libethercat.so.1) used by realtime applications that
  access the EtherCAT master through the ecrt.h API.
 
 Package: libethercat-dev
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 224
-Depends: libethercat (= 1:1.6.13-3+deb13u1), libc6-dev | libc-dev
+Installed-Size: 225
+Depends: libethercat (= 1:1.6.13-4+deb13u1), libc6-dev | libc-dev
 Multi-Arch: same
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: libdevel
-Filename: pool/main/e/ethercat/libethercat-dev_1.6.13-3+deb13u1_arm64.deb
-Size: 37676
-SHA256: 596402768e0cb5c20010e08f96cd99b90d79c6c4fbeb0ccb6576999a753f1e49
-SHA1: 331ff8df5c3fb811002612b175f4079bd161b8d0
-MD5sum: e4ffdff476b068b1f4fe64b52fd74031
+Filename: pool/main/e/ethercat/libethercat-dev_1.6.13-4+deb13u1_arm64.deb
+Size: 37700
+SHA256: c6c31ca219dc7f5db0109db6348356a8307ffc8b9ad1ea2c88584a05f7a6c23f
+SHA1: f9aa3aa28ee6f99f45e5cc3378c5eaebc6aa6b63
+MD5sum: f203caad95a2092abdf9e73776c73d8c
 Description: IgH EtherCAT master — development files
  Headers (ecrt.h, ectty.h), static archive, pkg-config and CMake
  descriptors for building realtime applications against the
@@ -128,34 +128,34 @@ Description: IgH EtherCAT master — development files
 
 Package: libethercat-eoe
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 79
+Installed-Size: 80
 Depends: libc6 (>= 2.17)
 Conflicts: libethercat
 Replaces: libethercat
-Provides: libethercat (= 1:1.6.13-3+deb13u1)
+Provides: libethercat (= 1:1.6.13-4+deb13u1)
 Multi-Arch: same
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: libs
-Filename: pool/main/e/ethercat/libethercat-eoe_1.6.13-3+deb13u1_arm64.deb
-Size: 15652
-SHA256: 0379c442fbbc25ab7ea72edd9123b0015fea5866d0cf0dd92e04918ec0e3bf5c
-SHA1: 032387291d77572255dd04ca21d8648a9aec9c90
-MD5sum: e81610a46d0ea63ccbb1d755bfb5e4f2
+Filename: pool/main/e/ethercat/libethercat-eoe_1.6.13-4+deb13u1_arm64.deb
+Size: 15780
+SHA256: 12f6fe5229ff3463adffbf3f124596d3fb0384189cdc76e2a71f534500431179
+SHA1: 61c24b8fb7aa44a9a651a2637de1eac89806d2b5
+MD5sum: 4b4702f9c94a2dfc2bbac3cbcec2e3c0
 Description: IgH EtherCAT master — runtime shared library
  Shared library (libethercat.so.1) used by realtime applications that
  access the EtherCAT master through the ecrt.h API.
 
 Package: libethercat-eoe-dev
 Source: ethercat
-Version: 1:1.6.13-3+deb13u1
+Version: 1:1.6.13-4+deb13u1
 Architecture: arm64
 Maintainer: mika <mika-net@outlook.com>
-Installed-Size: 227
-Depends: libethercat-eoe (= 1:1.6.13-3+deb13u1), libc6-dev | libc-dev
+Installed-Size: 228
+Depends: libethercat-eoe (= 1:1.6.13-4+deb13u1), libc6-dev | libc-dev
 Conflicts: libethercat-dev
 Replaces: libethercat-dev
 Provides: libethercat-dev
@@ -163,11 +163,11 @@ Multi-Arch: same
 Homepage: https://etherlab.org/ethercat
 Priority: optional
 Section: libdevel
-Filename: pool/main/e/ethercat/libethercat-eoe-dev_1.6.13-3+deb13u1_arm64.deb
-Size: 38076
-SHA256: eb033e99753f18764f02b02e2dbf00dbf04551bf58713610569797a990dfa6dc
-SHA1: 2c22373dbb64ffbd6ebfdc35be559ea1dc08420a
-MD5sum: b7ff39bd54c518a255e741a96288fc6b
+Filename: pool/main/e/ethercat/libethercat-eoe-dev_1.6.13-4+deb13u1_arm64.deb
+Size: 38148
+SHA256: 15a2eb7ebf62d8ead09192c6f6ac8735546d072b17f968b8264c045f5ea79d36
+SHA1: 75637e46540c7411d50a79879868a168540ff22d
+MD5sum: c6e326eadeae326268722a7f0552924c
 Description: IgH EtherCAT master — development files
  Headers (ecrt.h, ectty.h), static archive, pkg-config and CMake
  descriptors for building realtime applications against the
