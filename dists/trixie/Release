@@ -2,63 +2,63 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: trixie
-Date: Sat, 14 Nov 2026 03:08:47 UTC
+Date: Tue, 17 Nov 2026 07:27:29 UTC
 Architectures: amd64 arm64
 Components: main getset
 Description: linuxcnc-ethercat and ethercat packages for Debian 13 (trixie)
 MD5Sum:
- 340d8079e2230d5e1800e0f498a25e85 7720 main/binary-amd64/Packages
- ee55ce7b4d24f73538cf9f399cb80c39 2196 main/binary-amd64/Packages.gz
+ 816ed207cb0df8ba547cbc7bf2ccbd9e 7720 main/binary-amd64/Packages
+ 18f7d60974eafaa3dc82a817059e977a 2202 main/binary-amd64/Packages.gz
  97d7dafa4d76f4ff8cabc3ed61fcbaac 179 main/binary-amd64/Release
- 6a76a57b50604c3b95072e2abb4b425b 7720 main/binary-arm64/Packages
- 98360f596cfbcb7ca4f1451684428333 2193 main/binary-arm64/Packages.gz
+ 7a4884d7c941bec419b219d471d93bb8 7720 main/binary-arm64/Packages
+ be64d8f1cbd1ac5827503fffcf2d1746 2196 main/binary-arm64/Packages.gz
  ef6f58ef8e0ce9133a6d4f843624a1ca 179 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  83f6cd45b8e3b760ccb80149c228afac 180 main/source/Release
- 61dc0b74d0757ea1ba0f2a5cedd84cf7 1037 getset/binary-amd64/Packages
- 8a1e2331f8fe7266029ec1fafb3abe22 607 getset/binary-amd64/Packages.gz
+ c21cc476c6dc37dba5629c47c9f92e60 1037 getset/binary-amd64/Packages
+ 47d3f6399e9caa14233e63ed5dc67c09 607 getset/binary-amd64/Packages.gz
  223e2430877a60236ec632bcf24b2e70 181 getset/binary-amd64/Release
- 71e2c98cb78d943053c2789157cd8e8f 1037 getset/binary-arm64/Packages
- 16c068d12d2ea6c7dc3f55ca0defdbbe 608 getset/binary-arm64/Packages.gz
+ 7d4a0feb5c7160f17c2d48027f6ac6b1 1037 getset/binary-arm64/Packages
+ 7d2fced82eb82e758d164b89427a48d5 608 getset/binary-arm64/Packages.gz
  f02fabbd8f137a6f8f5a2a801f910887 181 getset/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 getset/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 getset/source/Sources.gz
  253fbc622afb496a27d4c606d6673d2c 182 getset/source/Release
 SHA1:
- d7b9d7b27b7445501eb3dcc0aa649c44cbf5f769 7720 main/binary-amd64/Packages
- d9751ab02a02027664a47756eec7e363e869f8c3 2196 main/binary-amd64/Packages.gz
+ 94ec5e95a431bca70dd0d71c60f58f6246d2e1e2 7720 main/binary-amd64/Packages
+ 7ce93302a360ec0f6a9160f2778cb4087aec8449 2202 main/binary-amd64/Packages.gz
  0813496329d8c51a12f544b9f78170a4b3ab8d8e 179 main/binary-amd64/Release
- d5aea5ecd463a07b6d6969895de5c1daf63d2196 7720 main/binary-arm64/Packages
- 1954cc24229d172929ab48c95132d77729d6f021 2193 main/binary-arm64/Packages.gz
+ 9904eb370ec617da9f061b3f8508c5023323e287 7720 main/binary-arm64/Packages
+ 9bc941cff7ef30be052c860a829d1f2de5ab3e84 2196 main/binary-arm64/Packages.gz
  fea20e7a84d3300a3f4927228d2d0994e67d9ac5 179 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  17f6dd41800cfc1b148cde1ca3f4cfcbe9d7ffc8 180 main/source/Release
- 03b7cc75974155e31162b289b7c94fca512cb775 1037 getset/binary-amd64/Packages
- 70cfeb8995f1f20dd0f8829e8aeef0126e949a7c 607 getset/binary-amd64/Packages.gz
+ 0a72ce8ea861e4d18319ee7a62529cb8ed17d44d 1037 getset/binary-amd64/Packages
+ 57669d3cba2220f8a24a928f8436270df1023515 607 getset/binary-amd64/Packages.gz
  1b118f9705f79318ca8bad95eb6dae91674744ac 181 getset/binary-amd64/Release
- 256a0666a6c77f70a5dde1368fd28634776c6b10 1037 getset/binary-arm64/Packages
- 6d975a831e387df726b8e8aafe2934f2fd06d30b 608 getset/binary-arm64/Packages.gz
+ 807d1eff0cc9b21d47ceef0948e3b9acd7637617 1037 getset/binary-arm64/Packages
+ 8f9468f47b888c2262f7e461327ecbf0fe8c9392 608 getset/binary-arm64/Packages.gz
  42f6c4fae8526e5af9d41fcd9a1c7fec3655719b 181 getset/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 getset/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 getset/source/Sources.gz
  bd3e8081e5c21066f9818a1b3e3f18e7439fe727 182 getset/source/Release
 SHA256:
- 4d3e2782516c4b84cc6a68431c845fffaa008c4d0ac8c53cc8438006f821438a 7720 main/binary-amd64/Packages
- 5ee87526f7eed9d80376f54495fa40fea79696fd12080d115a615acfa9265261 2196 main/binary-amd64/Packages.gz
+ 9e837ff36f151ee45e2f76cf97cf48b84a040b44d8f7975fc30512969e97ea36 7720 main/binary-amd64/Packages
+ 6d725c754b30b53822f8e5a7b52ab16bbf6c5ddfe8cfbfd0c219e5108d986e39 2202 main/binary-amd64/Packages.gz
  5356464b8bf7d14ed42d9e5df2c5847a6bafbc10da64635d98dab011d794a124 179 main/binary-amd64/Release
- dde02545cd7375af15a690f09ef80c06f402e3b15cf42274b113a9d2a4b07417 7720 main/binary-arm64/Packages
- d35f08bbbeee971acf29b482f10be5935127b1695c524698443e8e02e86eb0d2 2193 main/binary-arm64/Packages.gz
+ b663ec55568c73a8f02fcee9ae6d8efe7cbd4dc094546d9b2c556d0590fe196b 7720 main/binary-arm64/Packages
+ f6ca8efa0148fee98cbccf9f97adddef6609314e8122423d67559cc81e227372 2196 main/binary-arm64/Packages.gz
  07e656c95a1f79e0327a6bd052b6076971f1b792f28500e2b421bf89de32a09e 179 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  47cae7b09b909b92f9aa1e68a99ace7b7d49ea4525c6d865180c70d6ce1815d1 180 main/source/Release
- 135a9e1ea6bfbd49eb934a3b1d0540a939e8e8d1a101564d971b95d88e44f8d5 1037 getset/binary-amd64/Packages
- bc4b5846a7c7c60bc561856ee111a6db0c79b32568df5cc336f955e98495ce35 607 getset/binary-amd64/Packages.gz
+ 9cf78cf969b1ca93ea929a7164077ac880a061ac1ab71f9e474179daa266fe43 1037 getset/binary-amd64/Packages
+ 58d952127922fc40719a53b3425265baafd0b8adeced94caa43ce7122b223e2c 607 getset/binary-amd64/Packages.gz
  3b6710fe1b865b77307f42cd977fe4d09df8d0bdb44d4d8aa6a700a6b06b0aa8 181 getset/binary-amd64/Release
- aeeea5150e4acafbc77b2e73a785ed2e69465bfb0529180e66ca13f709a8b15d 1037 getset/binary-arm64/Packages
- 173bacb1d2f65cd5d39cb170f6a6144cada2ab38cfcfa710f7c0f01066fc685f 608 getset/binary-arm64/Packages.gz
+ 98996e75068e4c58643dcf01609488de340835521590843c151608c25ebbafb5 1037 getset/binary-arm64/Packages
+ 8db65583106226949facc41dd6098efb20fdd16867b16d2aad1d989cf35a37df 608 getset/binary-arm64/Packages.gz
  8f95be6eb1b78bf561e482d024b3b81e4ce7f18ce728e5824b022a1a7985168a 181 getset/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 getset/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 getset/source/Sources.gz

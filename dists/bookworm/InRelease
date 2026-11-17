@@ -5,80 +5,80 @@ Origin: linuxcnc-ethercat
 Label: linuxcnc-ethercat
 Suite: stable
 Codename: bookworm
-Date: Sat, 14 Nov 2026 03:08:47 UTC
+Date: Tue, 17 Nov 2026 07:27:29 UTC
 Architectures: amd64 arm64
 Components: main getset
 Description: linuxcnc-ethercat and ethercat packages for Debian 12 (bookworm)
 MD5Sum:
- 55e3c868b78ac4d90f193a151e1989e4 7714 main/binary-amd64/Packages
- 304f8d27f1e1113a45decb91fa1e301b 2192 main/binary-amd64/Packages.gz
+ cfeb332aee4e129cf18eb350cf67fce1 7714 main/binary-amd64/Packages
+ 71441d27f0cc06d9e1b3a19ec6823519 2187 main/binary-amd64/Packages.gz
  f950e23a6ae6ce8c7cfde402504f7ea0 181 main/binary-amd64/Release
- a288fe767836aeba288a45fceb4e7bb1 7714 main/binary-arm64/Packages
- 59efcaba622eaf45cb0f2ad22c7881f0 2190 main/binary-arm64/Packages.gz
+ 4f37c738528e44262901b2775ad91dd1 7714 main/binary-arm64/Packages
+ abb677fe6128c719d36c7065b694f8a8 2189 main/binary-arm64/Packages.gz
  52efb1cca1584a700f3237c7d7b16c7a 181 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  e88fa1bf3cfaf5d3458ca275a9edf86e 182 main/source/Release
- 3fcc54f35e810a86b6b6b010d3fb4c91 1036 getset/binary-amd64/Packages
- bdcea1a973622efb82d483870f69a9d0 607 getset/binary-amd64/Packages.gz
+ dcad2e94df831608acd88b31aa778878 1036 getset/binary-amd64/Packages
+ 31c059907ab98eb835ba8471dd9922fa 605 getset/binary-amd64/Packages.gz
  290e74b177cc12aed122e07188cd5734 183 getset/binary-amd64/Release
- cc3a4cbf7db9af8ec861572534949e3b 1036 getset/binary-arm64/Packages
- ebeba26ac8c4652335323f5b09ce71fa 606 getset/binary-arm64/Packages.gz
+ 41b0f2902a1fa07c4e2139b92eb6a430 1036 getset/binary-arm64/Packages
+ 4f05500e847d0392bbdbc11fe590945c 608 getset/binary-arm64/Packages.gz
  77ae41c89ef919a551047b50267a0b92 183 getset/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 getset/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 getset/source/Sources.gz
  23ee2a0848d3bbeecbf5cbb24b6d232e 184 getset/source/Release
 SHA1:
- 63a6cedfc76efee680f5bc0a6153bf9e6fd5bb78 7714 main/binary-amd64/Packages
- 810ebd60197284669ac4b5eeef1a318d534dd999 2192 main/binary-amd64/Packages.gz
+ e81b617d6f8cd4a4070749ca1dd8ff73b3d3fef5 7714 main/binary-amd64/Packages
+ 605ea5a10555f069ac368e5104b1cdb0f97f3c9e 2187 main/binary-amd64/Packages.gz
  034d90e90bd617b7b8303ec497ba5c0e0149be5f 181 main/binary-amd64/Release
- 741abdbc767921fa304624a31b24a93858bb864d 7714 main/binary-arm64/Packages
- a4d3c1e484b5baaee49e3647b14e9953d49e17d7 2190 main/binary-arm64/Packages.gz
+ 3fbc84ec87581763b8f84ebcfbe7f66b1c2dafd5 7714 main/binary-arm64/Packages
+ 0dfd3c814066e1d5907500be5d8eb992288bfeb2 2189 main/binary-arm64/Packages.gz
  c6d5c5406378ce5e7f2290f35206294e3cea0579 181 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  fda65747e3d0030309feb2313f6ceab9f21156a4 182 main/source/Release
- 9815bddc7b2456f4ef33b71aaf42efd13dcf4054 1036 getset/binary-amd64/Packages
- 1284687a8e8aed3ed0f140ba83a9e333f001d87a 607 getset/binary-amd64/Packages.gz
+ 298a3e7242efef0d235bd6b7ce06433a129ddedd 1036 getset/binary-amd64/Packages
+ 2c463947c2824081b84eac7d1cecc9811ab1adf1 605 getset/binary-amd64/Packages.gz
  c79390575e65125a37671b5fa4af63bbb66edc0d 183 getset/binary-amd64/Release
- 79a43d59a73ad568027461afaf42cf3944bd2e47 1036 getset/binary-arm64/Packages
- 6ca3a4472e1a6c38bfbb60bfe777f3b6b0bb5ad4 606 getset/binary-arm64/Packages.gz
+ f524e14b50bd3af846613763e02f1a84e65e5cf4 1036 getset/binary-arm64/Packages
+ 0906c1ca7c7854783ea919e2e238b586c9e9aa6e 608 getset/binary-arm64/Packages.gz
  e7c29679681b0fbf953393ec32529410fa77af67 183 getset/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 getset/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 getset/source/Sources.gz
  450f67570790838eabedb6f0a1685d89d6d82a95 184 getset/source/Release
 SHA256:
- fae61a39f8f4b8e0ce63e3cd5f837cd05c4a325558339faa8574869fe52901ec 7714 main/binary-amd64/Packages
- 46846c7d93caccdce0efe556d5b3597179f628db3f5bbbd577782356f1c25109 2192 main/binary-amd64/Packages.gz
+ e983def00773368d517b1dd7e1081f0a9900d9c874d40aac73f8fcdcd243f855 7714 main/binary-amd64/Packages
+ e4ba21043d94dc0ab8950c925480cf80f111e44b05bd8d985b22cd2f3cf458b7 2187 main/binary-amd64/Packages.gz
  b997ade5b28afaad12fc70de48fc01f7bc01e8238c338422ba84464bc6ef0969 181 main/binary-amd64/Release
- 3244cccc6099d6e6fa8bf72f585f12290a1e52b3906956b9b8e874c258751c48 7714 main/binary-arm64/Packages
- 4e6607f69a79700f2ffafe0bb7ba5f1beeae9997256fb2ee394bdea7fe6f16e9 2190 main/binary-arm64/Packages.gz
+ dd9738fbe4051f214407f637383e78b97aacb73736c3f2439f41c6e62203d262 7714 main/binary-arm64/Packages
+ 5c444993d6885ce799e16518fda54a45d726e94847c909f834beccd07825eb18 2189 main/binary-arm64/Packages.gz
  dc0798d53c8c90429340f00d5213af2fa545cdf51cf84b9a1610b91cc78051b6 181 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  440dc74185d9b98e1570e751c1eff25558fa104b61eec690b9f2759c3d3efefa 182 main/source/Release
- 298eb8ddf341c0b9560317734445e1499743731f9c41e936df2f31642cd4d650 1036 getset/binary-amd64/Packages
- 045516166dce7b2f747926fde32c6ad6f2ccb184933cb740d6f6ece163f886f0 607 getset/binary-amd64/Packages.gz
+ 1bbd5663c59535c7eff2c78c404c8f027a208a31c00f0a5eebf0c6cd62555de0 1036 getset/binary-amd64/Packages
+ 1b29c29731202ded8edd344247ca6a25f79bd8195fe895787a86d90bbd8ab55e 605 getset/binary-amd64/Packages.gz
  c813829712b4753e29b0c5b25f804efb97e7a8732a7c6d8d0065d9c878110708 183 getset/binary-amd64/Release
- eda928cd2c0deb81e136575896fc53194d7749528fcf538b8a1ffdb90cbce14b 1036 getset/binary-arm64/Packages
- 5fa3886c9f76e9420aadda710da876b35a77f25df2366d9635759d18a871ebd2 606 getset/binary-arm64/Packages.gz
+ 168b79a17f17695c57841061aad2c6c148a1b33eb77753ed7a68e629af9a4e13 1036 getset/binary-arm64/Packages
+ 553ca04b4eb3fb4483e20d90c744a6da7d23e0bcbd261a1217f07f30954c3e06 608 getset/binary-arm64/Packages.gz
  99e57e158b389487e39eccf8fcab92def8a951960ea45178db1b2a110564f031 183 getset/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 getset/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 getset/source/Sources.gz
  254b66129e6441853e69fc75390178afe62947a01b379e848491a7926b8ecc0f 184 getset/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmr30L8ACgkQvDO5O/Jx
-Tad3RQ//Tz1kOENc08wq4QO+mRG/o3o/DVkXaKqzzcZF17WzpFpmizOjNfAW3/HM
-sJqbwnE7vBuApzsNQMshe0AduLKJkd2eeSuHG5rQS7YqjZCzgMD6yQT4+udh+AYn
-Gf1gkwIwaswW5jVh6rKgfknRWo3q8hdP80AdfJ7kU20QH3E0DAT/xyPHsE2F2KQY
-T2FA/0X7rSIytsyHZU256QQsnmAQdIic3DGXTcPRQN3dZwG12K6siOLSjj5ZktCg
-EfcFMosVQe8RdQeUqyoVMZ6f4U5JfiDqQ77V9fjgCPm94jgMLtAcAYU0PR7pUnQ3
-48i23FvHkeRqWtOZ7E97xFs+emOQW71nbVdFbIohw3uxwWj5s0HoC/Ngi5zm4Toj
-UTS+P3a/8dNVvKErUiZjWJyrjLBqII7uutgtQtDA/rC/08lZPBN0o/prR1H0AEfh
-oicNHWDDEZ9YN36dxebXYNX6ZOQZdJK2GsnFNAdgSh0Z6o0fIxn0mNeVFU6GKqlr
-JAVVRv1pqYOo4nkr0SRTusfMNbadub0bAccEDx/atrnJZ3LYjV925mxUlosRZkG2
-d1780iRhKyTftme84I1khVd2fTJi9hcHvI8M1+kxT+xPFVFPnnLwre/AzIhdEy7C
-rm5pPqzJYMY9rpyF8drfL8R3sfdUffJtBfncsH4shvTAx/ryiNE=
-=LB2a
+iQIzBAEBCgAdFiEESA7nca77p74fvtJYvDO5O/JxTacFAmr8AeEACgkQvDO5O/Jx
+TacAng/5ARMLWe6+VbX5BATwo8G5vr7HhONV8dN7oaLl4dq4FxHZQPF5qO+szamS
+TD1vsFgYEC84GHAJvAOZpcj5rUt/h7UcN9nDQ1RFKOsKRk9aWhIVXWNsEvmaJSbG
+nMxJwiJ8EHKx2wNXUSwuNRsL9xxO9zNUe9Lt7+Cis7hbj9rxZDtSMDmKsiXvKfCo
++9FqsrO4+OrFcuQgQeMtYRGEewKoAOYOs3ZmyQRwdKpwqs8miE9bw8Rvi5HbkWos
+Y/P3x3oJ/KCnH3KY3AM1HxkDGUNhm9ZE3zjPHhxZXj7qc3X+wi1C260VYKjIv0IS
+8BoSMJlV40Jo2TQ3GU6OSIep7B0I3hDsZscQfNT+Xx5L6uZFmp6dPsEFI54ULdKi
+MsckvXlwLFOTjq/lMn18Mp/Jjsll9qU4oFtvxuHdecNabbD3S1r9eQxwfgErgxgl
+CI+KkY9ODLM5OWhqj1d8rBKSnUkBAmsLmKL7fwiDa7BjQbHOO8L24faYDssz4OEw
+xc1Gq4SpMOS1yLJ2lkRDG8wQ8+c1oa5HOeI8J0JVKFJHW02SIfGxjMgGtoLqNO2r
+r1yd7hBp19sa6FB8B+SF2AnG1PQutz2mZ6ZY4Wqfbto8/hz1bJ5yisdNLUun+sAT
+AG6zL8XVw7ilaWseB/4h0tkLGuhd54PipULD7U0o/5S/HYXlAaQ=
+=B2HL
 -----END PGP SIGNATURE-----
